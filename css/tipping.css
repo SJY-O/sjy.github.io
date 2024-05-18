@@ -18,14 +18,14 @@
     display: flex;
     margin: 0 auto;
     border-radius: 10px;
-    background-image: url(/image/wx.png);
+    background-image: url(../image/wx.png);
     background-size: 248px 248px;
 }
 
 .tipping .pay_code1>.pay_code2 {
     flex: 1;
     border-radius: 10px;
-    background-image: url(/image/zfb.png);
+    background-image: url(../image/zfb.png);
     background-size: 248px 248px;
     background-position-x: calc(var(--index)*11%);
     transition: 1s;
