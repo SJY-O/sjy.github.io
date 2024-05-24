@@ -1,0 +1,242 @@
+{
+    "01版：要聞.pdf": {
+        "id": "ivdmc1vjkhti",
+        "size": "2.2 M"
+    },
+    "02版：要聞.pdf": {
+        "id": "ibYIp1vjki0f",
+        "size": "860.4 K"
+    },
+    "03版：要聞.pdf": {
+        "id": "in2fL1vjki8d",
+        "size": "954.4 K"
+    },
+    "04版：要聞.pdf": {
+        "id": "ifSxy1vjkifa",
+        "size": "1.1 M"
+    },
+    "05版：要聞.pdf": {
+        "id": "iCrws1vjkilg",
+        "size": "888.6 K"
+    },
+    "06版：中國新聞.pdf": {
+        "id": "iig571vjkisd",
+        "size": "1.0 M"
+    },
+    "07版：中國新聞.pdf": {
+        "id": "iEjC81vjkj3e",
+        "size": "1.0 M"
+    },
+    "08版：中國新聞.pdf": {
+        "id": "i1x861vjkj9a",
+        "size": "958.9 K"
+    },
+    "09版：台灣新聞.pdf": {
+        "id": "iQ48F1vjkjef",
+        "size": "1.2 M"
+    },
+    "10版：國際新聞.pdf": {
+        "id": "iutLd1vjkjja",
+        "size": "1.3 M"
+    },
+    "11版：大公評論.pdf": {
+        "id": "iF3Kt1vjkjqh",
+        "size": "856.0 K"
+    },
+    "12版：港聞.pdf": {
+        "id": "ikkpb1vjkjwd",
+        "size": "854.1 K"
+    },
+    "13版：港聞.pdf": {
+        "id": "iS3Tg1vjkk1i",
+        "size": "896.7 K"
+    },
+    "14版：港聞.pdf": {
+        "id": "ilxrM1vjkkgd",
+        "size": "849.4 K"
+    },
+    "15版：港聞.pdf": {
+        "id": "iL8FX1vjkkxa",
+        "size": "1.3 M"
+    },
+    "16版：廣東專題.pdf": {
+        "id": "iWZxk1vjkl9c",
+        "size": "1.2 M"
+    },
+    "A01版：專題.pdf": {
+        "id": "iq7GM1vjkljc",
+        "size": "1.4 M"
+    },
+    "A02版：股市行情.pdf": {
+        "id": "iAuEv1vjklpi",
+        "size": "963.1 K"
+    },
+    "A03版：世界新潮.pdf": {
+        "id": "iirv81vjkltc",
+        "size": "1.1 M"
+    },
+    "A04版：廣告.pdf": {
+        "id": "iyXAV1vjkm0j",
+        "size": "704.9 K"
+    },
+    "A05版：廣告.pdf": {
+        "id": "ijrXx1vjkmfe",
+        "size": "1.7 M"
+    },
+    "A06版：體育.pdf": {
+        "id": "iUBr31vjkmpe",
+        "size": "1.4 M"
+    },
+    "A07版：體育.pdf": {
+        "id": "ilpeG1vjkmze",
+        "size": "1.4 M"
+    },
+    "A08版：國際新聞.pdf": {
+        "id": "iUsAo1vjkn9e",
+        "size": "1.1 M"
+    },
+    "A09版：河南專題.pdf": {
+        "id": "iYW0x1vjkngb",
+        "size": "1.0 M"
+    },
+    "A10版：河南專題.pdf": {
+        "id": "iz9o71vjknoj",
+        "size": "856.5 K"
+    },
+    "A11版：廣東專題.pdf": {
+        "id": "iFNla1vjknza",
+        "size": "961.1 K"
+    },
+    "A12版：專題.pdf": {
+        "id": "iE7g81vjkobc",
+        "size": "1.2 M"
+    },
+    "A13版：吉林專題.pdf": {
+        "id": "icGFX1vjkolc",
+        "size": "851.4 K"
+    },
+    "A14版：吉林專題.pdf": {
+        "id": "iYmti1vjkovc",
+        "size": "960.9 K"
+    },
+    "A15版：吉林專題.pdf": {
+        "id": "icupc1vjkp5c",
+        "size": "998.2 K"
+    },
+    "A16版：吉林專題.pdf": {
+        "id": "itOcM1vjkphe",
+        "size": "840.7 K"
+    },
+    "A17版：吉林專題.pdf": {
+        "id": "i2cij1vjkpob",
+        "size": "944.7 K"
+    },
+    "A18版：深圳專題.pdf": {
+        "id": "ioygP1vjkpzc",
+        "size": "1.3 M"
+    },
+    "A19版：海西新聞.pdf": {
+        "id": "ixgex1vjkq9c",
+        "size": "1.1 M"
+    },
+    "A20版：上海旅遊.pdf": {
+        "id": "iJZQi1vjkqmf",
+        "size": "896.7 K"
+    },
+    "A21版：廣告.pdf": {
+        "id": "iHsAw1vjkr5e",
+        "size": "730.1 K"
+    },
+    "A22版：專題.pdf": {
+        "id": "iFgkU1vjkrxc",
+        "size": "1.3 M"
+    },
+    "A23版：兩會專題.pdf": {
+        "id": "imZBQ1vjkskf",
+        "size": "978.7 K"
+    },
+    "A24版：天津專題.pdf": {
+        "id": "ikgyj1vjksuf",
+        "size": "1.5 M"
+    },
+    "B01版：大公經濟.pdf": {
+        "id": "iLplS1vjksvg",
+        "size": "800.5 K"
+    },
+    "B02版：經濟.pdf": {
+        "id": "iRXej1vjksxi",
+        "size": "851.2 K"
+    },
+    "B03版：國際經濟.pdf": {
+        "id": "iLLJu1vjkt3e",
+        "size": "918.9 K"
+    },
+    "B04版：投資全方位.pdf": {
+        "id": "iWa4D1vjkt5g",
+        "size": "956.2 K"
+    },
+    "B05版：經濟‧航運.pdf": {
+        "id": "il8vM1vjkt8j",
+        "size": "708.2 K"
+    },
+    "B06版：中國證券.pdf": {
+        "id": "iFBmZ1vjktja",
+        "size": "881.5 K"
+    },
+    "B07版：中國經濟.pdf": {
+        "id": "iKOZr1vjktsj",
+        "size": "812.1 K"
+    },
+    "B08版：賽馬.pdf": {
+        "id": "idFxq1vjktvc",
+        "size": "1.3 M"
+    },
+    "B09版：賽馬.pdf": {
+        "id": "iojWp1vjku4b",
+        "size": "1.5 M"
+    },
+    "B10版：音樂鑑賞.pdf": {
+        "id": "ivFKv1vjkufc",
+        "size": "1.2 M"
+    },
+    "B11版：娛樂.pdf": {
+        "id": "iD38h1vjkuob",
+        "size": "1.8 M"
+    },
+    "B12版：娛樂.pdf": {
+        "id": "imD551vjkuuh",
+        "size": "1.4 M"
+    },
+    "B13版：社團新訊.pdf": {
+        "id": "iLzeL1vjkuyb",
+        "size": "1.2 M"
+    },
+    "B14版：教育.pdf": {
+        "id": "io4sq1vjkv3g",
+        "size": "855.5 K"
+    },
+    "B15版：社團新訊.pdf": {
+        "id": "iuaIe1vjkvcf",
+        "size": "1.1 M"
+    },
+    "B16版：大公園.pdf": {
+        "id": "inZSf1vjkvha",
+        "size": "1.1 M"
+    },
+    "B17版：文化‧新園地.pdf": {
+        "id": "izT871vjkvmf",
+        "size": "1.1 M"
+    },
+    "B18版：文化.pdf": {
+        "id": "iLJVm1vjkw0j",
+        "size": "1.5 M"
+    },
+    "B19版：讀書樂.pdf": {
+        "id": "iGlYf1vjkwji",
+        "size": "1.0 M"
+    },
+    "B20版：中華醫藥.pdf": {
+        "id": "iXG1w1vjkwva",
+        "size": "1.6 M"
+    }
+}
