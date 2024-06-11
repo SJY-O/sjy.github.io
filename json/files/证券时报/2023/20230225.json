@@ -1,0 +1,466 @@
+{
+    "A001版：头版.pdf": {
+        "id": "iyQP21zotxxg",
+        "size": "506.8 K"
+    },
+    "A002版：综合.pdf": {
+        "id": "iYM1j1zotykj",
+        "size": "407.9 K"
+    },
+    "A003版：公司.pdf": {
+        "id": "iL4Qo1zotzaf",
+        "size": "421.2 K"
+    },
+    "A004版：焦点.pdf": {
+        "id": "i8vjl1zotzxi",
+        "size": "873.3 K"
+    },
+    "A005版：投资.pdf": {
+        "id": "ik1BE1zou0gh",
+        "size": "442.0 K"
+    },
+    "A006版：信息披露.pdf": {
+        "id": "iQzGO1zou0wd",
+        "size": "492.5 K"
+    },
+    "A007版：信息披露.pdf": {
+        "id": "iw42d1zou1fc",
+        "size": "444.6 K"
+    },
+    "A008版：信息披露.pdf": {
+        "id": "iWTUL1zou1xa",
+        "size": "411.6 K"
+    },
+    "B001版：信息披露.pdf": {
+        "id": "ioYQR1zou2ha",
+        "size": "443.4 K"
+    },
+    "B002版：信息披露.pdf": {
+        "id": "ih5eT1zou2yh",
+        "size": "444.6 K"
+    },
+    "B003版：信息披露.pdf": {
+        "id": "iz0Ua1zou3kj",
+        "size": "427.4 K"
+    },
+    "B004版：信息披露.pdf": {
+        "id": "iEnDy1zou45a",
+        "size": "451.2 K"
+    },
+    "B005版：信息披露.pdf": {
+        "id": "itzTL1zou4qb",
+        "size": "453.6 K"
+    },
+    "B006版：信息披露.pdf": {
+        "id": "ifK9H1zou56h",
+        "size": "458.5 K"
+    },
+    "B007版：信息披露.pdf": {
+        "id": "izqLk1zou61i",
+        "size": "509.2 K"
+    },
+    "B008版：信息披露.pdf": {
+        "id": "iH9z91zou6zc",
+        "size": "430.6 K"
+    },
+    "B009版：信息披露.pdf": {
+        "id": "iexFC1zou7wf",
+        "size": "414.0 K"
+    },
+    "B010版：信息披露.pdf": {
+        "id": "iyFCY1zou8yd",
+        "size": "475.8 K"
+    },
+    "B011版：信息披露.pdf": {
+        "id": "iPiAG1zou9yj",
+        "size": "452.3 K"
+    },
+    "B012版：信息披露.pdf": {
+        "id": "ipcT71zoub1i",
+        "size": "432.9 K"
+    },
+    "B013版：信息披露.pdf": {
+        "id": "iYJYY1zouc1e",
+        "size": "436.7 K"
+    },
+    "B014版：信息披露.pdf": {
+        "id": "iHaAh1zoucpi",
+        "size": "433.2 K"
+    },
+    "B015版：信息披露.pdf": {
+        "id": "iWti01zoudla",
+        "size": "407.6 K"
+    },
+    "B016版：信息披露.pdf": {
+        "id": "iymwZ1zouehc",
+        "size": "408.7 K"
+    },
+    "B017版：信息披露.pdf": {
+        "id": "iz63X1zoufde",
+        "size": "505.2 K"
+    },
+    "B018版：信息披露.pdf": {
+        "id": "i4JDG1zoug6d",
+        "size": "428.1 K"
+    },
+    "B019版：信息披露.pdf": {
+        "id": "isW4p1zouh4h",
+        "size": "421.0 K"
+    },
+    "B020版：信息披露.pdf": {
+        "id": "iItMv1zouhzi",
+        "size": "416.6 K"
+    },
+    "B021版：信息披露.pdf": {
+        "id": "i03f81zouiwb",
+        "size": "395.2 K"
+    },
+    "B022版：信息披露.pdf": {
+        "id": "i2uGY1zoujrc",
+        "size": "414.4 K"
+    },
+    "B023版：信息披露.pdf": {
+        "id": "iNUDM1zoukij",
+        "size": "395.4 K"
+    },
+    "B024版：信息披露.pdf": {
+        "id": "igyag1zoulcj",
+        "size": "402.8 K"
+    },
+    "B025版：信息披露.pdf": {
+        "id": "i4fTV1zoumcf",
+        "size": "434.4 K"
+    },
+    "B026版：信息披露.pdf": {
+        "id": "iOoZz1zoun6f",
+        "size": "429.9 K"
+    },
+    "B027版：信息披露.pdf": {
+        "id": "id8tF1zouo7c",
+        "size": "428.1 K"
+    },
+    "B028版：信息披露.pdf": {
+        "id": "iR4ij1zoupab",
+        "size": "427.0 K"
+    },
+    "B029版：信息披露.pdf": {
+        "id": "iuPlY1zouq6d",
+        "size": "401.9 K"
+    },
+    "B030版：信息披露.pdf": {
+        "id": "iZ9r81zour7a",
+        "size": "457.8 K"
+    },
+    "B031版：信息披露.pdf": {
+        "id": "iyHmz1zous4d",
+        "size": "473.3 K"
+    },
+    "B032版：信息披露.pdf": {
+        "id": "i3SkJ1zousze",
+        "size": "433.0 K"
+    },
+    "B033版：信息披露.pdf": {
+        "id": "imcc61zoutsd",
+        "size": "423.2 K"
+    },
+    "B034版：信息披露.pdf": {
+        "id": "i4PBh1zouuqh",
+        "size": "416.2 K"
+    },
+    "B035版：信息披露.pdf": {
+        "id": "iuTpE1zouvob",
+        "size": "428.0 K"
+    },
+    "B036版：信息披露.pdf": {
+        "id": "iax1X1zouwoh",
+        "size": "409.8 K"
+    },
+    "B037版：信息披露.pdf": {
+        "id": "izmq91zouxnc",
+        "size": "432.8 K"
+    },
+    "B038版：信息披露.pdf": {
+        "id": "iAm271zouywh",
+        "size": "519.1 K"
+    },
+    "B039版：信息披露.pdf": {
+        "id": "igezA1zouzxe",
+        "size": "532.2 K"
+    },
+    "B040版：信息披露.pdf": {
+        "id": "iCTqR1zov0tg",
+        "size": "424.9 K"
+    },
+    "B041版：信息披露.pdf": {
+        "id": "ikwCN1zov29i",
+        "size": "392.8 K"
+    },
+    "B042版：信息披露.pdf": {
+        "id": "idO3H1zov2ti",
+        "size": "395.0 K"
+    },
+    "B043版：信息披露.pdf": {
+        "id": "inUPu1zov3fa",
+        "size": "413.5 K"
+    },
+    "B044版：信息披露.pdf": {
+        "id": "iCaNa1zov44f",
+        "size": "437.4 K"
+    },
+    "B045版：信息披露.pdf": {
+        "id": "ibcbJ1zov4ta",
+        "size": "473.0 K"
+    },
+    "B046版：信息披露.pdf": {
+        "id": "ikMo61zov58f",
+        "size": "411.5 K"
+    },
+    "B047版：信息披露.pdf": {
+        "id": "itwrI1zov5yb",
+        "size": "453.3 K"
+    },
+    "B048版：信息披露.pdf": {
+        "id": "iPtqo1zov68b",
+        "size": "437.2 K"
+    },
+    "B049版：信息披露.pdf": {
+        "id": "iUxD61zov6ra",
+        "size": "430.0 K"
+    },
+    "B050版：信息披露.pdf": {
+        "id": "iFJiI1zov76f",
+        "size": "429.2 K"
+    },
+    "B051版：信息披露.pdf": {
+        "id": "i5bPG1zov7kj",
+        "size": "405.5 K"
+    },
+    "B052版：信息披露.pdf": {
+        "id": "idIhm1zov86b",
+        "size": "422.5 K"
+    },
+    "B053版：信息披露.pdf": {
+        "id": "ijhrA1zov8lg",
+        "size": "502.2 K"
+    },
+    "B054版：信息披露.pdf": {
+        "id": "itFoU1zov9ef",
+        "size": "511.0 K"
+    },
+    "B055版：信息披露.pdf": {
+        "id": "izm0Y1zov9wd",
+        "size": "471.3 K"
+    },
+    "B056版：信息披露.pdf": {
+        "id": "iZIgO1zovacj",
+        "size": "451.5 K"
+    },
+    "B057版：信息披露.pdf": {
+        "id": "iQru21zovawj",
+        "size": "458.6 K"
+    },
+    "B058版：信息披露.pdf": {
+        "id": "iZFCe1zovbeh",
+        "size": "506.4 K"
+    },
+    "B059版：信息披露.pdf": {
+        "id": "iPWU71zovbsb",
+        "size": "442.6 K"
+    },
+    "B060版：信息披露.pdf": {
+        "id": "izRjs1zovc3c",
+        "size": "413.4 K"
+    },
+    "B061版：信息披露.pdf": {
+        "id": "i1wZj1zovckj",
+        "size": "436.6 K"
+    },
+    "B062版：信息披露.pdf": {
+        "id": "ikf6C1zovcze",
+        "size": "427.5 K"
+    },
+    "B063版：信息披露.pdf": {
+        "id": "iXbaV1zovdmh",
+        "size": "417.3 K"
+    },
+    "B064版：信息披露.pdf": {
+        "id": "ihIZ21zove7i",
+        "size": "444.2 K"
+    },
+    "B065版：信息披露.pdf": {
+        "id": "iwr6u1zoveta",
+        "size": "432.5 K"
+    },
+    "B066版：信息披露.pdf": {
+        "id": "iJdHp1zovfhe",
+        "size": "448.4 K"
+    },
+    "B067版：信息披露.pdf": {
+        "id": "iSxab1zovg0d",
+        "size": "425.8 K"
+    },
+    "B068版：信息披露.pdf": {
+        "id": "iVAdM1zovgib",
+        "size": "439.0 K"
+    },
+    "B069版：信息披露.pdf": {
+        "id": "iDUdQ1zovh8h",
+        "size": "469.5 K"
+    },
+    "B070版：信息披露.pdf": {
+        "id": "i6w7Z1zovhqf",
+        "size": "500.0 K"
+    },
+    "B071版：信息披露.pdf": {
+        "id": "iRxmN1zovigb",
+        "size": "463.7 K"
+    },
+    "B072版：信息披露.pdf": {
+        "id": "igcoT1zovj7i",
+        "size": "453.3 K"
+    },
+    "B073版：信息披露.pdf": {
+        "id": "iXkIM1zovjof",
+        "size": "599.6 K"
+    },
+    "B074版：信息披露.pdf": {
+        "id": "iOEm11zovk7e",
+        "size": "503.0 K"
+    },
+    "B075版：信息披露.pdf": {
+        "id": "iqldc1zovkob",
+        "size": "498.1 K"
+    },
+    "B076版：信息披露.pdf": {
+        "id": "i2SqT1zovl5i",
+        "size": "448.0 K"
+    },
+    "B077版：信息披露.pdf": {
+        "id": "i6Wq71zovljc",
+        "size": "466.3 K"
+    },
+    "B078版：信息披露.pdf": {
+        "id": "ii81v1zovm0j",
+        "size": "441.4 K"
+    },
+    "B079版：信息披露.pdf": {
+        "id": "iBdyU1zovmod",
+        "size": "427.9 K"
+    },
+    "B080版：信息披露.pdf": {
+        "id": "i5Y3d1zovnyj",
+        "size": "414.4 K"
+    },
+    "B081版：信息披露.pdf": {
+        "id": "iG7R31zovosj",
+        "size": "456.2 K"
+    },
+    "B082版：信息披露.pdf": {
+        "id": "itqeo1zovpif",
+        "size": "446.4 K"
+    },
+    "B083版：信息披露.pdf": {
+        "id": "ihAiY1zovqcf",
+        "size": "403.5 K"
+    },
+    "B084版：信息披露.pdf": {
+        "id": "i3w9S1zovr5e",
+        "size": "419.9 K"
+    },
+    "B085版：信息披露.pdf": {
+        "id": "iKzMc1zovryd",
+        "size": "490.7 K"
+    },
+    "B086版：信息披露.pdf": {
+        "id": "ijFSv1zovsqb",
+        "size": "447.4 K"
+    },
+    "B087版：信息披露.pdf": {
+        "id": "iUYjM1zovtgh",
+        "size": "424.5 K"
+    },
+    "B088版：信息披露.pdf": {
+        "id": "iJkZx1zovubi",
+        "size": "470.9 K"
+    },
+    "B089版：信息披露.pdf": {
+        "id": "iGwpR1zovv4h",
+        "size": "504.4 K"
+    },
+    "B090版：信息披露.pdf": {
+        "id": "iuVxS1zovvwf",
+        "size": "432.5 K"
+    },
+    "B091版：信息披露.pdf": {
+        "id": "i8H3C1zovwnc",
+        "size": "443.9 K"
+    },
+    "B092版：信息披露.pdf": {
+        "id": "ifZoz1zovxid",
+        "size": "396.8 K"
+    },
+    "B093版：信息披露.pdf": {
+        "id": "iaXy61zovy6h",
+        "size": "442.6 K"
+    },
+    "B094版：信息披露.pdf": {
+        "id": "iiNqP1zovz2j",
+        "size": "392.5 K"
+    },
+    "B095版：信息披露.pdf": {
+        "id": "i1rq41zovzzc",
+        "size": "423.4 K"
+    },
+    "B096版：信息披露.pdf": {
+        "id": "i8TnV1zow0ud",
+        "size": "441.4 K"
+    },
+    "B097版：信息披露.pdf": {
+        "id": "iJxn71zow1sh",
+        "size": "401.4 K"
+    },
+    "B098版：信息披露.pdf": {
+        "id": "iM5pM1zow2ni",
+        "size": "440.3 K"
+    },
+    "B099版：信息披露.pdf": {
+        "id": "iidrB1zow3bc",
+        "size": "476.8 K"
+    },
+    "B100版：信息披露.pdf": {
+        "id": "i7HCI1zow3xe",
+        "size": "431.8 K"
+    },
+    "B101版：信息披露.pdf": {
+        "id": "iE0EL1zow4gd",
+        "size": "421.3 K"
+    },
+    "B102版：信息披露.pdf": {
+        "id": "i97IU1zow56j",
+        "size": "440.8 K"
+    },
+    "B103版：信息披露.pdf": {
+        "id": "id6WF1zow65e",
+        "size": "451.1 K"
+    },
+    "B104版：信息披露.pdf": {
+        "id": "i35we1zow6nc",
+        "size": "350.8 K"
+    },
+    "B105版：信息披露.pdf": {
+        "id": "i4jcZ1zow75a",
+        "size": "501.1 K"
+    },
+    "B106版：信息披露.pdf": {
+        "id": "iHtRO1zow7uf",
+        "size": "440.1 K"
+    },
+    "B107版：信息披露.pdf": {
+        "id": "igIBz1zow8ef",
+        "size": "431.3 K"
+    },
+    "B108版：信息披露.pdf": {
+        "id": "i0ulV1zow91i",
+        "size": "449.9 K"
+    }
+}

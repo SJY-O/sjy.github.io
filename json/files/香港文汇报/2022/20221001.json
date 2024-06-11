@@ -1,0 +1,506 @@
+{
+    "A01版：要聞.pdf": {
+        "id": "i3fFR219hwna",
+        "size": "1.6 M"
+    },
+    "A02版：要聞.pdf": {
+        "id": "itt5Y219hxbe",
+        "size": "1.4 M"
+    },
+    "A03版：要聞.pdf": {
+        "id": "ieG2i219hxtc",
+        "size": "1.8 M"
+    },
+    "A04版：要聞.pdf": {
+        "id": "iVas9219hysh",
+        "size": "2.6 M"
+    },
+    "A05版：要聞.pdf": {
+        "id": "iBwyo219hzsd",
+        "size": "2.2 M"
+    },
+    "A06版：要聞.pdf": {
+        "id": "iTBI5219i0vc",
+        "size": "1.9 M"
+    },
+    "A07版：要聞.pdf": {
+        "id": "iw5Pk219i1na",
+        "size": "1.1 M"
+    },
+    "A08版：要聞.pdf": {
+        "id": "iMMAj219i2oh",
+        "size": "3.7 M"
+    },
+    "A09版：要聞.pdf": {
+        "id": "i5xqt219i3xc",
+        "size": "2.3 M"
+    },
+    "A10版：港聞.pdf": {
+        "id": "iVUMx219i4wh",
+        "size": "1.2 M"
+    },
+    "A11版：廣告.pdf": {
+        "id": "iCJgz219i5qh",
+        "size": "871.2 K"
+    },
+    "A12版：港聞.pdf": {
+        "id": "iPN9y219i6vi",
+        "size": "2.0 M"
+    },
+    "A13版：廣告.pdf": {
+        "id": "iF7Hs219i7ud",
+        "size": "1.4 M"
+    },
+    "A14版：文匯論壇.pdf": {
+        "id": "i2JBp219i8ji",
+        "size": "876.4 K"
+    },
+    "A15版：廣告.pdf": {
+        "id": "iHr2L219i9je",
+        "size": "1.2 M"
+    },
+    "A16版：內地.pdf": {
+        "id": "iGV8z219iamd",
+        "size": "1.9 M"
+    },
+    "A17版：廣告.pdf": {
+        "id": "iQy7E219ibgd",
+        "size": "1.5 M"
+    },
+    "A18版：文化視野.pdf": {
+        "id": "i9dZ0219icdg",
+        "size": "1.3 M"
+    },
+    "A19版：廣告.pdf": {
+        "id": "i2PWp219idba",
+        "size": "602.6 K"
+    },
+    "A20版：文匯園.pdf": {
+        "id": "iwgfX219idwb",
+        "size": "2.5 M"
+    },
+    "A21版：廣告.pdf": {
+        "id": "iiTxO219iekf",
+        "size": "907.5 K"
+    },
+    "A22版：國際.pdf": {
+        "id": "irWrg219ifij",
+        "size": "2.2 M"
+    },
+    "A23版：國際.pdf": {
+        "id": "iaoK4219igli",
+        "size": "3.2 M"
+    },
+    "A24版：國際.pdf": {
+        "id": "i5Lxn219ihtc",
+        "size": "4.0 M"
+    },
+    "B01版：財經.pdf": {
+        "id": "iym2f219iish",
+        "size": "1.1 M"
+    },
+    "B02版：財經.pdf": {
+        "id": "icXcE219ij8d",
+        "size": "1.5 M"
+    },
+    "B03版：財經.pdf": {
+        "id": "iTrN4219ik9a",
+        "size": "2.5 M"
+    },
+    "B04版：投資理財.pdf": {
+        "id": "iIxpn219ilob",
+        "size": "943.6 K"
+    },
+    "B05版：廣告.pdf": {
+        "id": "ijLSP219imjc",
+        "size": "1.1 M"
+    },
+    "B06版：投資理財.pdf": {
+        "id": "it7rx219infe",
+        "size": "2.4 M"
+    },
+    "B07版：娛樂.pdf": {
+        "id": "ik0np219ioid",
+        "size": "4.5 M"
+    },
+    "B08版：娛樂.pdf": {
+        "id": "iU7At219ipri",
+        "size": "3.2 M"
+    },
+    "B09版：體育.pdf": {
+        "id": "i2G4q219iqob",
+        "size": "2.7 M"
+    },
+    "B10版：體育.pdf": {
+        "id": "ihE4L219irpi",
+        "size": "1.6 M"
+    },
+    "C01版：廣告.pdf": {
+        "id": "iaqa6219isti",
+        "size": "565.9 K"
+    },
+    "C02版：廣告.pdf": {
+        "id": "iEJAO219itte",
+        "size": "1.7 M"
+    },
+    "C03版：廣告.pdf": {
+        "id": "iIzUq219iuub",
+        "size": "650.4 K"
+    },
+    "C04版：廣告.pdf": {
+        "id": "iX27P219ivjg",
+        "size": "813.4 K"
+    },
+    "C05版：廣告.pdf": {
+        "id": "iFpaB219iwgj",
+        "size": "590.8 K"
+    },
+    "C06版：廣告.pdf": {
+        "id": "iCmtq219ix6f",
+        "size": "1,015.5 K"
+    },
+    "C07版：廣告.pdf": {
+        "id": "iY16W219ixyd",
+        "size": "647.0 K"
+    },
+    "C08版：廣告.pdf": {
+        "id": "iRrVA219iysd",
+        "size": "835.8 K"
+    },
+    "C09版：廣告.pdf": {
+        "id": "ipvWx219izxe",
+        "size": "771.8 K"
+    },
+    "C10版：廣告.pdf": {
+        "id": "ibjhJ219j1dg",
+        "size": "5.8 M"
+    },
+    "C11版：廣告.pdf": {
+        "id": "igTOI219j2cb",
+        "size": "751.0 K"
+    },
+    "C12版：廣告.pdf": {
+        "id": "iM8WY219j3af",
+        "size": "3.0 M"
+    },
+    "Z01版：廣告.pdf": {
+        "id": "iV02L219j3za",
+        "size": "622.9 K"
+    },
+    "Z02版：廣告.pdf": {
+        "id": "iYmn9219j4zg",
+        "size": "1.1 M"
+    },
+    "Z03版：廣告.pdf": {
+        "id": "iIJYN219j5uh",
+        "size": "503.5 K"
+    },
+    "Z04版：廣告.pdf": {
+        "id": "itZRO219j73c",
+        "size": "10.1 M"
+    },
+    "Z05版：廣告.pdf": {
+        "id": "iKDNP219j80f",
+        "size": "1.1 M"
+    },
+    "Z06版：廣告.pdf": {
+        "id": "iKLrb219j99a",
+        "size": "812.9 K"
+    },
+    "Z07版：廣告.pdf": {
+        "id": "iWVkX219ja9g",
+        "size": "599.5 K"
+    },
+    "Z08版：廣告.pdf": {
+        "id": "ihgGb219jbad",
+        "size": "642.1 K"
+    },
+    "Z09版：廣告.pdf": {
+        "id": "iuW4d219jbtc",
+        "size": "521.9 K"
+    },
+    "Z10版：廣告.pdf": {
+        "id": "iZAz4219jcla",
+        "size": "804.2 K"
+    },
+    "Z11版：廣告.pdf": {
+        "id": "iTUgx219je0b",
+        "size": "2.4 M"
+    },
+    "Z12版：廣告.pdf": {
+        "id": "iszfu219jf3a",
+        "size": "1.2 M"
+    },
+    "Z13版：廣告.pdf": {
+        "id": "ivkdt219jfsf",
+        "size": "1.7 M"
+    },
+    "Z14版：廣告.pdf": {
+        "id": "ioOhs219jgeh",
+        "size": "1.4 M"
+    },
+    "Z15版：廣告.pdf": {
+        "id": "iv20P219jh2b",
+        "size": "1.4 M"
+    },
+    "Z16版：廣告.pdf": {
+        "id": "i7iGj219jhla",
+        "size": "1.4 M"
+    },
+    "Z17版：廣告.pdf": {
+        "id": "ix3W5219ji7c",
+        "size": "494.9 K"
+    },
+    "Z18版：廣告.pdf": {
+        "id": "i1NS7219jioj",
+        "size": "529.7 K"
+    },
+    "Z19版：廣告.pdf": {
+        "id": "iQQnC219jj4f",
+        "size": "595.3 K"
+    },
+    "Z20版：廣告.pdf": {
+        "id": "iGrh5219jjta",
+        "size": "749.3 K"
+    },
+    "Z21版：廣告.pdf": {
+        "id": "iukNc219jkah",
+        "size": "878.6 K"
+    },
+    "Z22版：廣告.pdf": {
+        "id": "iHh55219jkxa",
+        "size": "668.8 K"
+    },
+    "Z23版：廣告.pdf": {
+        "id": "imwES219jlkd",
+        "size": "4.4 M"
+    },
+    "Z24版：廣告.pdf": {
+        "id": "ir3EJ219jn0f",
+        "size": "718.8 K"
+    },
+    "Z25版：廣告.pdf": {
+        "id": "ije25219jo8j",
+        "size": "499.0 K"
+    },
+    "Z26版：廣告.pdf": {
+        "id": "ifoZg219jozg",
+        "size": "616.1 K"
+    },
+    "Z27版：廣告.pdf": {
+        "id": "iwY9V219jqeh",
+        "size": "577.9 K"
+    },
+    "Z28版：廣告.pdf": {
+        "id": "izLnp219jr6f",
+        "size": "4.3 M"
+    },
+    "Z29版：廣告.pdf": {
+        "id": "i9XFh219jsoj",
+        "size": "553.6 K"
+    },
+    "Z30版：廣告.pdf": {
+        "id": "iMSsg219jtvc",
+        "size": "522.8 K"
+    },
+    "Z31版：廣告.pdf": {
+        "id": "ilxPP219juxa",
+        "size": "774.8 K"
+    },
+    "Z32版：廣告.pdf": {
+        "id": "icnTW219jxdi",
+        "size": "661.3 K"
+    },
+    "Z33版：廣告.pdf": {
+        "id": "i6Hhl219jzgd",
+        "size": "583.8 K"
+    },
+    "Z34版：廣告.pdf": {
+        "id": "iIc65219k0pi",
+        "size": "552.8 K"
+    },
+    "Z35版：廣告.pdf": {
+        "id": "iQ1Pi219k2je",
+        "size": "886.2 K"
+    },
+    "Z36版：廣告.pdf": {
+        "id": "iWSsk219k3ij",
+        "size": "702.8 K"
+    },
+    "Z37版：廣告.pdf": {
+        "id": "iy1VZ219k41i",
+        "size": "622.2 K"
+    },
+    "Z38版：廣告.pdf": {
+        "id": "iRFyT219k4tg",
+        "size": "643.5 K"
+    },
+    "Z39版：廣告.pdf": {
+        "id": "iazEo219k6yd",
+        "size": "617.3 K"
+    },
+    "Z40版：廣告.pdf": {
+        "id": "i9v6Z219k81c",
+        "size": "894.8 K"
+    },
+    "Z41版：廣告.pdf": {
+        "id": "izCUB219k9eb",
+        "size": "596.6 K"
+    },
+    "Z42版：廣告.pdf": {
+        "id": "iy9Wy219kb2b",
+        "size": "826.7 K"
+    },
+    "Z43版：廣告.pdf": {
+        "id": "iwlJA219kc6b",
+        "size": "718.6 K"
+    },
+    "Z44版：廣告.pdf": {
+        "id": "icm4S219kd7i",
+        "size": "751.3 K"
+    },
+    "Z45版：廣告.pdf": {
+        "id": "ijytJ219kevi",
+        "size": "534.5 K"
+    },
+    "Z46版：廣告.pdf": {
+        "id": "ibAdl219kg9i",
+        "size": "808.4 K"
+    },
+    "Z47版：廣告.pdf": {
+        "id": "itXud219kh7c",
+        "size": "728.4 K"
+    },
+    "Z48版：廣告.pdf": {
+        "id": "iOQbO219kjkh",
+        "size": "750.6 K"
+    },
+    "Z49版：廣告.pdf": {
+        "id": "ikhZW219kkdg",
+        "size": "774.2 K"
+    },
+    "Z50版：廣告.pdf": {
+        "id": "iwxIN219klze",
+        "size": "755.4 K"
+    },
+    "Z51版：廣告.pdf": {
+        "id": "iOWfm219knja",
+        "size": "692.3 K"
+    },
+    "Z52版：廣告.pdf": {
+        "id": "iYQFY219koah",
+        "size": "705.0 K"
+    },
+    "Z53版：廣告.pdf": {
+        "id": "iONeW219kp0d",
+        "size": "668.0 K"
+    },
+    "Z54版：廣告.pdf": {
+        "id": "iuok6219kpsb",
+        "size": "900.7 K"
+    },
+    "Z55版：廣告.pdf": {
+        "id": "i8slG219kqrg",
+        "size": "725.3 K"
+    },
+    "Z56版：廣告.pdf": {
+        "id": "ioVI7219ks6h",
+        "size": "842.4 K"
+    },
+    "Z57版：廣告.pdf": {
+        "id": "ivwvx219ktzc",
+        "size": "759.8 K"
+    },
+    "Z58版：廣告.pdf": {
+        "id": "iO7tD219kusb",
+        "size": "666.3 K"
+    },
+    "Z59版：廣告.pdf": {
+        "id": "iQ1Yt219kvuj",
+        "size": "730.4 K"
+    },
+    "Z60版：廣告.pdf": {
+        "id": "iKwlB219kwpa",
+        "size": "694.0 K"
+    },
+    "Z61版：廣告.pdf": {
+        "id": "i6c0M219ky8f",
+        "size": "661.0 K"
+    },
+    "Z62版：廣告.pdf": {
+        "id": "iM9Yg219kzkd",
+        "size": "742.7 K"
+    },
+    "Z63版：廣告.pdf": {
+        "id": "igo9W219l0nc",
+        "size": "600.4 K"
+    },
+    "Z64版：廣告.pdf": {
+        "id": "ipa47219l1wh",
+        "size": "710.4 K"
+    },
+    "Z65版：廣告.pdf": {
+        "id": "ikJYk219l3ob",
+        "size": "705.6 K"
+    },
+    "Z66版：廣告.pdf": {
+        "id": "ifKYm219l45i",
+        "size": "2.0 M"
+    },
+    "Z67版：廣告.pdf": {
+        "id": "i51Qi219l5nc",
+        "size": "961.6 K"
+    },
+    "Z68版：廣告.pdf": {
+        "id": "iLe7p219l6mh",
+        "size": "699.4 K"
+    },
+    "Z69版：廣告.pdf": {
+        "id": "i1Isl219l7ef",
+        "size": "714.9 K"
+    },
+    "Z70版：廣告.pdf": {
+        "id": "i3kfz219l99c",
+        "size": "904.8 K"
+    },
+    "Z71版：廣告.pdf": {
+        "id": "i6nEX219l9ra",
+        "size": "632.5 K"
+    },
+    "Z72版：廣告.pdf": {
+        "id": "iv8j6219lacb",
+        "size": "840.2 K"
+    },
+    "Z73版：廣告.pdf": {
+        "id": "ing2P219lauj",
+        "size": "699.2 K"
+    },
+    "Z74版：廣告.pdf": {
+        "id": "iE6f0219lcfg",
+        "size": "765.6 K"
+    },
+    "Z75版：廣告.pdf": {
+        "id": "ir06T219ldcj",
+        "size": "741.2 K"
+    },
+    "Z76版：廣告.pdf": {
+        "id": "i3foo219ldxa",
+        "size": "641.2 K"
+    },
+    "Z77版：廣告.pdf": {
+        "id": "idh0o219lfpe",
+        "size": "751.3 K"
+    },
+    "Z78版：廣告.pdf": {
+        "id": "iBvIL219lh6h",
+        "size": "655.8 K"
+    },
+    "Z79版：廣告.pdf": {
+        "id": "iLwz5219li3a",
+        "size": "717.9 K"
+    },
+    "Z80版：廣告.pdf": {
+        "id": "iJyS9219litg",
+        "size": "764.9 K"
+    }
+}
