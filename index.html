@@ -1,222 +1,350 @@
 <!DOCTYPE html>
-<html lang="cn">
-
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>书纪源</title>
-    <link rel="stylesheet" href="./css/background.css">
-    <link rel="stylesheet" href="./css/tipping.css">
+    <link rel="shortcut icon" href="./Image/favicon.ico" type="image/x-icon">
+    <title>书纪源丨珍藏历史每一时刻</title>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="js/tipping.js"></script>
     <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        
         * {
             margin: 0;
             padding: 0;
-            letter-spacing: 0.5px;
-        }
-
-        .base {
-            width: 920.5px;
-            margin: 20px auto;
-            border-radius: 0.75rem;
-            padding: 0.8rem 1rem;
-            color: rgb(85, 0, 0);
-            background-color: rgba(255, 255, 255, 0.4);
-            opacity: 0.9;
-            box-shadow: 0 5px 15px -3px rgba(225, 221, 255, 0.9);
-        }
-
-        .base .notice {
-            padding: 0 10px;
-        }
-
-        nav {
-            display: flex;
-            width: 952.5px;
-            margin: 0 auto;
-            color: rgba(214, 193, 0, 0.884);
-        }
-
-        nav .nav {
-            padding: 0 8px;
-            color: rgba(214, 193, 0, 0.884);
-            transform: scale(1.01);
-        }
-
-        nav .home {
-            margin-left: 4px;
-        }
-
-        .item {
-            display: flex;
-            justify-content: space-between;
-            cursor: pointer;
-        }
-
-        .item .name {
-            display: flex;
-            width: 550px;
-        }
-
-        .item .size {
-            text-align: right;
-            width: 120px;
-        }
-
-        .item .time {
-            text-align: right;
-            width: 200px;
-        }
-
-        .item strong {
-            font-size: 14px;
-            padding: 0 10px;
-        }
-
-        .item svg {
-            width: 1.5rem;
-            height: 1.5rem;
-            margin-right: 1rem;
-        }
-
-        .item path {
-            color: rgb(0, 132, 255);
-        }
-
-        .item .skip {
-            display: flex;
-            padding: 6px 10px;
-            width: 100%;
+            Box-sizing: border-box;
         }
 
         a {
             display: flex;
-            color: rgb(85, 0, 0);
-            justify-content: space-between;
+            width: 100%;
             text-decoration: none;
-            transition: all 0.3s;
+            color: inherit;
             cursor: pointer;
         }
 
-        .item .skip:hover {
+        body {
+            background-color: #f9f9f9;
+            overflow-y: scroll;
+        }
+
+        .wrapper {
+            margin: auto;
+        }
+
+        .header {
+            margin-top: 20px;
+            margin-bottom: 12px;
+        }
+
+        .logo a {
+            display: block;
+            width: 162px;
+            height: 45px;
+            font-size: 0px;
+            background-image: url(./Image/SJY.png);
+            background-size: 100%;
+        }
+
+        .nav {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 8px;
+        }
+
+        .nav a {
+            width:fit-content;
+        }
+
+        .nav a,
+        .nav span {
+            padding: 5px;
+        }
+
+        .show {
+            padding: 8px;
+            margin-bottom: 50px;
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.09), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+        }
+
+        .show > div {
+            display: flex;
+            height: 40px;
+            padding: 8px;
+            line-height: 24px;
+            transition: all 0.3s;
+        }
+
+        .show .title {
+            font-size: 14px;
+            font-weight: bold;
+            color: #687076;
+        }
+
+        .show .name {
+            display: flex;
+            white-space: nowrap;
+        }
+
+        .show .name p {
+            text-overflow: ellipsis;
+            overflow: hidden;
+        }
+
+        svg {
+            width: 24px;
+            height: 24px;
+            margin-right: 6px;
+            color: rgb(0, 132, 255);
+            flex-shrink: 0;
+        }
+
+        .show > :not(div:first-child):hover,
+        .nav a:hover {
+            background: rgba(175, 175, 175, 0.3);
             border-radius: 6px;
-            background: rgba(254, 255, 249, 0.2);
             transform: scale(1.01);
         }
 
-        .under {
+        .fixed .sidebar {
+            font-size: 14px;
+            color: #fff;
+        }
+
+        .fixed .sidebar .triangle {
+            display: none;
+            position: absolute;
+            right: 43px;
+            top: 14px;
+		    border: 6px solid #444;      
+		    border-color: transparent transparent transparent #444;
+            transition: all .8s ease-in-out;
+        }
+
+        .fixed .sidebar .backTop {
+            height: 40px;
+            width: 40px;
             position: fixed;
-            left: 50%;
-            transform: translate(-50%, 0);
-            bottom: -15px;
-            background: rgb(146, 146, 146);
-            opacity: 1;
-        }
-
-        @keyframes shade {
-            0% {
-                background-position-x: -235%;
-            }
-
-            100% {
-                background-position-x: 270%;
-            }
-        }
-
-        .base .gradual {
-            -webkit-text-fill-color: transparent;
-            background: linear-gradient(90deg, rgb(0, 0, 0), rgb(255, 255, 255), rgb(0, 0, 0));
-            background-size: 70% 100%;
-            background-repeat: no-repeat;
-            -webkit-background-clip: text;
-            animation: shade 50s infinite;
-        }
-
-        .under span {
-            text-decoration: underline wavy rgb(146, 28, 28) 1px;
-            text-underline-offset: 4px;
+            right: 15px;
+            bottom: -45px;
+            background-color: #eee;
+            border-radius: 50%;
+            background-image: url(./Image/backTop.png);
+            background-size: 100%;
+            opacity: 0;
+            transition: bottom .5s ease-in-out, opacity .5s ease-in-out;
             cursor: pointer;
+        }
+
+        .fixed .sidebar .backTop .content {
+            display: none;
+            width: 80px;
+            height: 30px;
+            position: absolute;
+            right: 55px;
+            top: 5px;
+            text-align: center;
+            line-height: 30px;
+            border-radius: 5px;
+            background-color: #444;
+        }
+
+        .fixed .backTop:hover {
+            background-image: url(./Image/backTop_d.png);
+        }
+
+        .fixed .backTop:hover .content,
+        .fixed .backTop:hover .triangle {
+            display: block;
+        }
+
+        .fixed .sidebar .gratuity {
+            height: 40px;
+            width: 40px;
+            position: fixed;
+            right: 15px;
+            bottom: 100px;
+            background-color: #eee;
+            border-radius: 50%;
+            background-image: url(./Image/gratuity.png);
+            background-size: 100%;
+            cursor: pointer;
+        }
+
+        .fixed .sidebar .gratuity:hover {
+            background-image: url(./Image/gratuity_d.png);
+        }
+
+        .fixed .sidebar .gratuity .content {
+            display: none;
+            width: 160px;
+            height: 180px;
+            position: absolute;
+            right: 55px;
+            top: -70px;
+            border-radius: 10px;
+            background-color: #444;
+            text-align: center;
+        }
+
+        .fixed .sidebar .gratuity img {
+            width: 130px;
+            margin-top: 15px;
+        }
+
+        .fixed .sidebar .gratuity span {
+            display: block;
+            line-height: 30px;
+        }
+
+        .fixed .gratuity:hover .content,
+        .fixed .gratuity:hover .triangle {
+            display: block;
+        }
+
+        .fixed .sidebar .peeling {
+            height: 40px;
+            width: 40px;
+            position: fixed;
+            right: 15px;
+            bottom: 150px;
+            background-color: #eee;
+            border-radius: 50%;
+            background-image: url(./Image/night.png);
+            background-size: 100%;
+            cursor: pointer;
+        }
+
+        .fixed .sidebar .peeling .content {
+            display: none;
+            width: 80px;
+            height: 30px;
+            position: absolute;
+            right: 55px;
+            top: 5px;
+            text-align: center;
+            line-height: 30px;
+            border-radius: 5px;
+            background-color: #444;
+        }
+
+        .fixed .peeling:hover {
+            background-image: url(./Image/night_d.png);
+        }
+
+        .fixed .peeling:hover .content,
+        .fixed .peeling:hover .triangle {
+            display: block;
+        }
+
+
+
+        @media screen and (max-width:769px) {
+            .wrapper {
+            width: 97%;
+            }  
+
+            .show .name {
+                width: 75%;
+            }
+            .show .size {
+                width: 25%;
+                text-align:right;
+            }
+            .show .time {
+                display: none;
+                width: 0%;
+            }
+        }
+
+        @media screen and (min-width:770px) and (max-width:999px) {
+            .wrapper {
+            width: 97%;
+            }  
+
+            .show .name {
+                width: 65%;
+            }
+            .show .size {
+                width: 15%;
+                text-align: right;
+            }
+            .show .time {
+                width: 20%;
+                text-align: right;
+            }
+        }
+
+        @media screen and (min-width:1000px) {
+            .wrapper {
+            width: 970px;
+            }  
+
+            .show .name {
+                width: 65%;
+            }
+            .show .size {
+                width: 15%;
+                text-align: right;
+            }
+            .show .time {
+                width: 20%;
+                text-align: right;
+            }
         }
     </style>
 </head>
-
 <body>
-    <script src="js/maodian.js"></script>
+    <script src="./JavaScript/maodian.js"></script>
 
 
 
-    <div class="page-bg"></div>
-
-
-    <div class="animation-wrapper">
-        <div class="particle particle-1"></div>
-        <div class="particle particle-2"></div>
-        <div class="particle particle-3"></div>
-        <div class="particle particle-4"></div>
+    <div class="wrapper header">
+        <div class="logo">
+            <h1><a href="#">书纪源</a></h1>
+        </div>
     </div>
 
 
-    <div class="base">
-        <p class="notice">欢迎访问，资源来源于网络，仅供学习交流</p>
+
+    <div class="wrapper nav">
+        <a onclick="flushed(this)" alt="./JSON/index.json">🏡主页</a>
     </div>
 
 
-    <nav>
-        <a id="sign_one"></a>
-        <a class="nav home" alt="json/index.json" onclick="flushed(this)">主页</a>
-    </nav>
 
-
-    <div class="base">
-
-        <div class="item">
-            <div class="name"><strong>名称</strong></div>
-            <div class="size"><strong style="padding: 0;">大小</strong></div>
-            <div class="time"><strong>更新时间</strong></div>
-        </div>
-
-        <div>
-            <div id="sign_two"></div>
-        </div>
-
+    <div class="wrapper show">
     </div>
 
 
-    <div style="margin-bottom: 74px;"></div>
 
+    <div class="fixed">
 
-    <div class="base under">
-        <p class="notice gradual">如果网站对您有帮助，您可以通过<span onclick="turn()">捐助</span>支持我们，所有<span
-                onclick="turn()">捐助</span>都将用于维护本网站。</p>
-    </div>
-
-
-    <div class="tipping">
-
-        <div class="off" onclick="off()">
-            <span class="close"></span>
-        </div>
-
-        <div class="pay_code1">
-            <div class="pay_code2" style="--index:0"></div>
-            <div class="pay_code2" style="--index:1"></div>
-            <div class="pay_code2" style="--index:2"></div>
-            <div class="pay_code2" style="--index:3"></div>
-            <div class="pay_code2" style="--index:4"></div>
-            <div class="pay_code2" style="--index:5"></div>
-            <div class="pay_code2" style="--index:6"></div>
-            <div class="pay_code2" style="--index:7"></div>
-            <div class="pay_code2" style="--index:8"></div>
-            <div class="pay_code2" style="--index:9"></div>
-        </div>
-
-        <div class="pay_button">
-            <div class="zfb">
-                <p onclick="pay(1)">支付宝</p>
+        <div class="sidebar">
+            <div class="backTop">
+                <div class="content">
+                    <span>返回顶部</span>
+                </div>
+                <div class="triangle"></div>
             </div>
-            <div class="wx">
-                <p onclick="pay(2)">微 信</p>
+
+            <div class="gratuity">
+                <div class="content">
+                    <img src="./Image/gratuityCode.png">
+                    <span>支持作者</span>
+                </div>
+                <div class="triangle"></div>
+            </div>
+
+            <div class="peeling">
+                <div class="content">
+                    <span>夜间模式</span>
+                </div>
+                <div class="triangle"></div>
             </div>
         </div>
 
@@ -225,152 +353,189 @@
 
 
     <script>
+        const show = document.querySelector(".show")
+        const nav = document.querySelector(".nav")
 
-        var nav = document.getElementById('sign_one');
-        var content = document.getElementById('sign_two');
-
-
-
-
-
-        var displayData = function (data) {
-
-            for (let key in data) {
-                if (data.hasOwnProperty(key)) {
-                    let alt = data[key]['mode']
-                    let size = data[key]['size']
-                    var date = data[key]['date']
-                    if (alt == 'c'){
-                        date = key.substring(0,4) + '-' + key.substring(4,6) + '-' + key.substring(6,8)}
-                    
-                    if (typeof alt == 'undefined') {
-                        let id = data[key]['id']
-                        date = document.querySelector('nav').querySelectorAll('a')[4].innerHTML;
-                        date = date.substring(0,4) + '-' + date.substring(4,6) + '-' + date.substring(6,8)
-                        content.insertAdjacentHTML('beforebegin', `<div class="item"><a href="https://wwb.lanzouq.com/${id}" class="skip" target="_blank"><div class="name"><svg fill="currentColor" stroke-width="0" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M5.523 12.424c.14-.082.293-.162.459-.238a7.878 7.878 0 0 1-.45.606c-.28.337-.498.516-.635.572a.266.266 0 0 1-.035.012.282.282 0 0 1-.026-.044c-.056-.11-.054-.216.04-.36.106-.165.319-.354.647-.548zm2.455-1.647c-.119.025-.237.05-.356.078a21.148 21.148 0 0 0 .5-1.05 12.045 12.045 0 0 0 .51.858c-.217.032-.436.07-.654.114zm2.525.939a3.881 3.881 0 0 1-.435-.41c.228.005.434.022.612.054.317.057.466.147.518.209a.095.095 0 0 1 .026.064.436.436 0 0 1-.06.2.307.307 0 0 1-.094.124.107.107 0 0 1-.069.015c-.09-.003-.258-.066-.498-.256zM8.278 6.97c-.04.244-.108.524-.2.829a4.86 4.86 0 0 1-.089-.346c-.076-.353-.087-.63-.046-.822.038-.177.11-.248.196-.283a.517.517 0 0 1 .145-.04c.013.03.028.092.032.198.005.122-.007.277-.038.465z"></path><path fill-rule="evenodd" d="M4 0h5.293A1 1 0 0 1 10 .293L13.707 4a1 1 0 0 1 .293.707V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2zm5.5 1.5v2a1 1 0 0 0 1 1h2l-3-3zM4.165 13.668c.09.18.23.343.438.419.207.075.412.04.58-.03.318-.13.635-.436.926-.786.333-.401.683-.927 1.021-1.51a11.651 11.651 0 0 1 1.997-.406c.3.383.61.713.91.95.28.22.603.403.934.417a.856.856 0 0 0 .51-.138c.155-.101.27-.247.354-.416.09-.181.145-.37.138-.563a.844.844 0 0 0-.2-.518c-.226-.27-.596-.4-.96-.465a5.76 5.76 0 0 0-1.335-.05 10.954 10.954 0 0 1-.98-1.686c.25-.66.437-1.284.52-1.794.036-.218.055-.426.048-.614a1.238 1.238 0 0 0-.127-.538.7.7 0 0 0-.477-.365c-.202-.043-.41 0-.601.077-.377.15-.576.47-.651.823-.073.34-.04.736.046 1.136.088.406.238.848.43 1.295a19.697 19.697 0 0 1-1.062 2.227 7.662 7.662 0 0 0-1.482.645c-.37.22-.699.48-.897.787-.21.326-.275.714-.08 1.103z"></path></svg><p>${key}</p></div><div class="size"><p>${size}</p></div><div class="time"><p>${date}</p></div></a></div>`)
-                    } else (content.insertAdjacentHTML('afterend', `<div class="item"><a class="skip" alt="${alt}" onclick="flushed(this)"><div class="name"><svg fill="currentColor" stroke-width="0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M496 152a56 56 0 00-56-56H220.11a23.89 23.89 0 01-13.31-4L179 73.41A55.77 55.77 0 00147.89 64H72a56 56 0 00-56 56v48a8 8 0 008 8h464a8 8 0 008-8zM16 392a56 56 0 0056 56h368a56 56 0 0056-56V216a8 8 0 00-8-8H24a8 8 0 00-8 8z"></path></svg><p>${key}</p></div><div class="size"><p>${size}</p></div><div class="time"><p>${date}</p></div></a></div>`))
-                    
-                }
-            };
-        }
-
-        $.ajax({
-            url: "json/index.json",
-            type: "GET",
-            dataType: "json",
-            success:
-                function (data) {
-                    displayData(data)
-                }
-        })
-
-        function removeAllSiblings(element) {
-            const parent = element.parentNode;
-            if (!parent) return; // 如果没有父节点，则直接返回
-
-            const siblings = Array.from(parent.childNodes); // 将子节点列表转换为数组
-            siblings.forEach(sibling => {
-                if (sibling !== element) {
-                    parent.removeChild(sibling); // 删除除当前元素之外的所有兄弟节点
-                }
-            });
-        }
-
-        
-        function flushed(obj) {
-
-            let mode = obj.getAttribute("alt");
-            
-            removeAllSiblings(document.getElementById('sign_two'));
-            
-            if (mode == 'a') {
-                var name = obj.querySelector('.name').querySelector('p').innerHTML;
-                var json_path = `json/year/${name}.json`;
-                removeAllSiblings(document.getElementById('sign_one'));
-                nav.insertAdjacentHTML('afterend', `<a class="nav home" alt="json/index.json" onclick="flushed(this)">主页</a>/<a class="nav" alt="${json_path}" onclick="flushed(this)">${name}</a>`);
-            } else if (mode == 'b') {
-                var name = document.querySelector('nav').querySelectorAll('a')[2].innerHTML;
-                var year = obj.querySelector('.name').querySelector('p').innerHTML;
-                var json_path = `json/date/${name}/${year}.json`;
-                removeAllSiblings(document.getElementById('sign_one'));
-                nav.insertAdjacentHTML('afterend', `<a class="nav home" alt="json/index.json" onclick="flushed(this)">主页</a>/<a class="nav" alt="json/year/${name}.json" onclick="flushed(this)">${name}</a>/<a class="nav" alt="${json_path}" onclick="flushed(this)">${year}</a>`);
-            } else if (mode == 'c') {
-                var name = document.querySelector('nav').querySelectorAll('a')[2].innerHTML;
-                var year = document.querySelector('nav').querySelectorAll('a')[3].innerHTML;
-                var date = obj.querySelector('.name').querySelector('p').innerHTML;
-                var json_path = `json/files/${name}/${year}/${date}.json`;
-                removeAllSiblings(document.getElementById('sign_one'));
-                nav.insertAdjacentHTML('afterend', `<a class="nav home" alt="json/index.json" onclick="flushed(this)">主页</a>/<a class="nav" alt="json/year/${name}.json" onclick="flushed(this)">${name}</a>/<a class="nav" alt="json/date/${name}/${year}.json" onclick="flushed(this)">${year}</a>/<a class="nav" alt="${json_path}" onclick="flushed(this)">${date}</a>`);
-            } else {
-                $(obj).nextAll().remove()
-                bread = document.querySelector('nav').querySelectorAll('a')
-                var text = ''
-                for(var i = 1; i < bread.length; i++) {
-                    text = text + bread[i].outerHTML + '/'
-                    }
-                text = text.substring(0, text.length - 1);
-                removeAllSiblings(document.getElementById('sign_one'));
-                nav.insertAdjacentHTML('afterend', `${text}`);
-                json_path = obj.getAttribute('alt')
-            }
-
+        const getData = function (url) {
             $.ajax({
-                url: json_path,
+                url: url,
                 type: "GET",
-                dataType: "json",
+                dataType: "JSON",
                 success:
-                    function (data) {
-                        displayData(data);
+                function (data) {
+                    let text = ""
+                    if (!url.includes("c")) {
+                        for (let key in data) {
+                            if (data.hasOwnProperty(key)) {
+                                let alt = data[key]["mode"]
+                                let size = data[key]["size"]
+                                let date
+                                if (url.includes("b")) {
+                                    date = `${key.substring(0,4)}-${key.substring(4,6)}-${key.substring(6,8)}`
+                                } else {
+                                    date = data[key]["date"]
+                                }
+                                text = `
+                                    <div>
+                                        <a onclick="flushed(this)" title="${key}" alt="${alt}">
+                                            <div class="name">
+                                                <svg fill="currentColor" stroke-width="0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M496 152a56 56 0 00-56-56H220.11a23.89 23.89 0 01-13.31-4L179 73.41A55.77 55.77 0 00147.89 64H72a56 56 0 00-56 56v48a8 8 0 008 8h464a8 8 0 008-8zM16 392a56 56 0 0056 56h368a56 56 0 0056-56V216a8 8 0 00-8-8H24a8 8 0 00-8 8z"></path></svg>
+                                                <p>${key}</p>
+                                            </div>
+                                            <p class="size">${size}</p>
+                                            <p class="time">${date}</p>
+                                        </a>
+                                    </div>
+                                ` + text
+                            }
+                        }
+                    } else {
+                        for (let key in data) {
+                            if (data.hasOwnProperty(key)) {
+                                let id = data[key]["id"]
+                                let size = data[key]["size"]
+                                let date = nav.querySelectorAll("a")[3].innerHTML
+                                date = `${date.substring(0,4)}-${date.substring(4,6)}-${date.substring(6,8)}`
+                                text += `
+                                    <div>
+                                        <a href="https://wwb.lanzouq.com/${id}" target="_blank">
+                                            <div class="name">
+                                                <svg fill="currentColor" stroke-width="0" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M5.523 12.424c.14-.082.293-.162.459-.238a7.878 7.878 0 0 1-.45.606c-.28.337-.498.516-.635.572a.266.266 0 0 1-.035.012.282.282 0 0 1-.026-.044c-.056-.11-.054-.216.04-.36.106-.165.319-.354.647-.548zm2.455-1.647c-.119.025-.237.05-.356.078a21.148 21.148 0 0 0 .5-1.05 12.045 12.045 0 0 0 .51.858c-.217.032-.436.07-.654.114zm2.525.939a3.881 3.881 0 0 1-.435-.41c.228.005.434.022.612.054.317.057.466.147.518.209a.095.095 0 0 1 .026.064.436.436 0 0 1-.06.2.307.307 0 0 1-.094.124.107.107 0 0 1-.069.015c-.09-.003-.258-.066-.498-.256zM8.278 6.97c-.04.244-.108.524-.2.829a4.86 4.86 0 0 1-.089-.346c-.076-.353-.087-.63-.046-.822.038-.177.11-.248.196-.283a.517.517 0 0 1 .145-.04c.013.03.028.092.032.198.005.122-.007.277-.038.465z"></path><path fill-rule="evenodd" d="M4 0h5.293A1 1 0 0 1 10 .293L13.707 4a1 1 0 0 1 .293.707V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2zm5.5 1.5v2a1 1 0 0 0 1 1h2l-3-3zM4.165 13.668c.09.18.23.343.438.419.207.075.412.04.58-.03.318-.13.635-.436.926-.786.333-.401.683-.927 1.021-1.51a11.651 11.651 0 0 1 1.997-.406c.3.383.61.713.91.95.28.22.603.403.934.417a.856.856 0 0 0 .51-.138c.155-.101.27-.247.354-.416.09-.181.145-.37.138-.563a.844.844 0 0 0-.2-.518c-.226-.27-.596-.4-.96-.465a5.76 5.76 0 0 0-1.335-.05 10.954 10.954 0 0 1-.98-1.686c.25-.66.437-1.284.52-1.794.036-.218.055-.426.048-.614a1.238 1.238 0 0 0-.127-.538.7.7 0 0 0-.477-.365c-.202-.043-.41 0-.601.077-.377.15-.576.47-.651.823-.073.34-.04.736.046 1.136.088.406.238.848.43 1.295a19.697 19.697 0 0 1-1.062 2.227 7.662 7.662 0 0 0-1.482.645c-.37.22-.699.48-.897.787-.21.326-.275.714-.08 1.103z"></path></svg>
+                                                <p>${key}</p>
+                                            </div>
+                                            <p class="size">${size}</p>
+                                            <p class="time">${date}</p>
+                                        </a>
+                                    </div>
+                                `
+                            }
+                        }
                     }
-            });
-
-        
+                show.innerHTML = `
+                        <div class="title">
+                            <div class="name">
+                                <p>名称</p>
+                            </div>
+                            <p class="size">大小</p>
+                            <p class="time">修改时间</p>
+                        </div>
+                    ` + text
+                }
+            })
         }
 
-            suffix = path.split('.')[1]
-            console.log(path);
-            if (suffix == 'json') {
-                let splitUrl = path.split('/');
-                if (splitUrl[1] == "year") {
-
-                    let name = splitUrl[2].split('.')[0];
-
-                    removeAllSiblings(document.getElementById('sign_one'));
-                    nav.insertAdjacentHTML('afterend', `<a class="nav home" alt="json/index.json" onclick="flushed(this)">主页</a>/<a class="nav" alt="json/year/${splitUrl[2]}" onclick="flushed(this)">${name}</a>`);
-
-                } else if (splitUrl[1] == "date") {
-                    let name = splitUrl[2];
-                    let year = splitUrl[3].split('.')[0];
-                    removeAllSiblings(document.getElementById('sign_one'));
-                    nav.insertAdjacentHTML('afterend', `<a class="nav home" alt="json/index.json" onclick="flushed(this)">主页</a>/<a class="nav" alt="json/year/${splitUrl[2]}.json" onclick="flushed(this)">${name}</a>/<a class="nav" alt="${path}" onclick="flushed(this)">${year}</a>`);
-
-                } else {
-                    removeAllSiblings(document.getElementById('sign_one'));
-                    nav.insertAdjacentHTML('afterend', `<a class="nav home" alt="json/index.json" onclick="flushed(this)">主页</a>`);
-                };
-
-                $.ajax({
-                    url: path,
-                    type: "GET",
-                    dataType: "json",
-                    success:
-                        function (data) {
-                            displayData(data);
-                        }
-                });
+        const flushed = function (obj) {
+            let home = `<a onclick="flushed(this)" alt="./JSON/index.json">🏡主页</a>`
+            if (obj.getAttribute("alt") === "a") {
+                let name = obj.querySelector(".name p").innerHTML
+                getData(`./JSON/a/${name}.json`)
+                nav.innerHTML = home + `<span>/</span><a onclick="flushed(this)" alt="./JSON/a/${name}.json">${name}</a>`
+            } else if (obj.getAttribute("alt") === "b") {
+                let name = nav.querySelectorAll("a")[1].innerHTML
+                let year = obj.querySelector(".name p").innerHTML
+                getData(`./JSON/b/${name}/${year}.json`)
+                nav.innerHTML = home + `<span>/</span><a onclick="flushed(this)" alt="./JSON/a/${name}.json">${name}</a>` + `<span>/</span><a onclick="flushed(this)" alt="./JSON/b/${name}/${year}.json">${year}</a>`
+            } else if (obj.getAttribute("alt") === "c") {
+                let name = nav.querySelectorAll("a")[1].innerHTML
+                let year = nav.querySelectorAll("a")[2].innerHTML
+                let date = obj.querySelector(".name p").innerHTML
+                getData(`./JSON/c/${name}/${year}/${date}.json`)
+                nav.innerHTML = home + `<span>/</span><a onclick="flushed(this)" alt="./JSON/a/${name}.json">${name}</a>` + `<span>/</span><a onclick="flushed(this)" alt="./JSON/b/${name}/${year}.json">${year}</a>` + `<span>/</span><a onclick="flushed(this)" alt="./JSON/c/${name}/${year}/${date}.json">${date}</a>`
             } else {
-
-                removeAllSiblings(document.getElementById('sign_one'));
-                    nav.insertAdjacentHTML('afterend', `<a class="nav home" href="https://wwb.lanzouq.com/ijHXK1wvd0ng" onclick="flushed(this)">主页</a>/<a class="nav" alt="json/year/${splitUrl[2]}" onclick="flushed(this)">${name}</a>`);
-
-
-                
+                let text = "" + home
+                let list = nav.querySelectorAll("a")
+                for(let i = 0; i <= list.length; i++) {
+                    if (obj.innerHTML === list[i].innerHTML) {
+                        break
+                    }
+                    text += `<span>/</span><a onclick="flushed(this)" alt="${list[i+1].getAttribute("alt")}">${list[i+1].innerHTML}</a>`
+                }
+                getData(obj.getAttribute("alt"))
+                nav.innerHTML = text
             }
+        }
 
+        getData("./JSON/index.json")
 
-    
-    
+        $(window).scroll(
+            function() {
+                let srcollTop = $(window).scrollTop()
+                if (srcollTop > 250) {
+                    $(".backTop").css("bottom", "50px")
+                    $(".backTop").css("opacity", "1")
+                } else {
+                    $(".backTop").css("bottom", "-45px")
+                    $(".backTop").css("opacity", "0")
+                }
+            }
+        )
+
+        document.querySelector(".backTop").addEventListener("click", function() {window.scrollTo({top: 0})})
+
+        var flag = true
+        let sidebarBgcD = "#eee"
+        let sidebarBgcN = "#363738"
+        
+        document.querySelector(".peeling").addEventListener("click", 
+            function() {
+                const peeling = document.querySelector(".peeling")
+                const gratuity = document.querySelector(".gratuity")
+                const backTop = document.querySelector(".backTop")
+                const show = document.querySelector(".show")
+                if (flag) {
+                    document.querySelector("html").style.color = "#f0f0f0"
+                    peeling.style.backgroundImage = "url(./Image/daylight.png)"
+                    document.querySelector(".peeling span").innerHTML = "日间模式"
+                    peeling.style.backgroundColor = gratuity.style.backgroundColor = backTop.style.backgroundColor = sidebarBgcN
+                    show.style.backgroundColor = "#2c2e2f"
+                    document.querySelector("body").style.backgroundColor = "#1b1d1f"
+                    document.querySelector("svg").style.color = "rgb(45, 154, 255)"
+                    document.querySelector(".show .title").style.color = "#b1bbc2"
+
+                    peeling.onmouseover = function () {
+                        this.style.backgroundImage = "url(./Image/daylight_n.png)"
+                    }
+                    peeling.onmouseout = function () {
+                        this.style.backgroundImage = "url(./Image/daylight.png)"
+                    }
+                    gratuity.onmouseover = function () {
+                        this.style.backgroundImage = "url(./Image/gratuity_n.png)"
+                    }
+                    backTop.onmouseover = function () {
+                        this.style.backgroundImage = "url(./Image/backTop_n.png)"
+                    }
+                } else {
+                    document.querySelector("html").style.color = "#000"
+                    peeling.style.backgroundImage = "url(./Image/night.png)"
+                    document.querySelector(".peeling span").innerHTML = "夜间模式"
+                    peeling.style.backgroundColor = gratuity.style.backgroundColor = backTop.style.backgroundColor = sidebarBgcD
+                    show.style.backgroundColor = "#fff"
+                    document.querySelector("body").style.backgroundColor = "#f9f9f9"
+                    document.querySelector("svg").style.color = "rgb(0, 132, 255)"
+                    document.querySelector(".show .title").style.color = "#687076"
+                    
+                    peeling.onmouseover = function () {
+                        this.style.backgroundImage = "url(./Image/night_d.png)"
+                    }
+                    peeling.onmouseout = function () {
+                        this.style.backgroundImage = "url(./Image/night.png)"
+                    }
+                    gratuity.onmouseover = function () {
+                        this.style.backgroundImage = "url(./Image/gratuity_d.png)"
+                    }
+                    backTop.onmouseover = function () {
+                        this.style.backgroundImage = "url(./Image/backTop_d.png)"
+                    }
+                }
+                gratuity.onmouseout = function () {
+                    this.style.backgroundImage = "url(./Image/gratuity.png)"
+                }
+                backTop.onmouseout = function () {
+                    this.style.backgroundImage = "url(./Image/backTop.png)"
+                }
+                flag = !flag
+            }
+        )
     </script>
 </body>
-
 </html>
