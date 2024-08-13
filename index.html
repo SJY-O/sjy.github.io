@@ -241,6 +241,77 @@
             display: block;
         }
 
+        .fixed .sidebar .group {
+            height: 40px;
+            width: 40px;
+            position: fixed;
+            right: 15px;
+            bottom: 200px;
+            background-color: #eee;
+            border-radius: 50%;
+            background-image: url(./Image/group.png);
+            background-size: 100%;
+            cursor: pointer;
+        }
+
+        .fixed .sidebar .group .content {
+            display: none;
+            width: 80px;
+            height: 30px;
+            position: absolute;
+            right: 55px;
+            top: 5px;
+            text-align: center;
+            line-height: 30px;
+            border-radius: 5px;
+            background-color: #444;
+        }
+
+        .fixed .group:hover {
+            background-image: url(./Image/group_d.png);
+        }
+
+        .fixed .group:hover .content,
+        .fixed .group:hover .triangle {
+            display: block;
+        }
+
+        .fixed .sidebar .hide {
+            height: 40px;
+            width: 40px;
+            position: fixed;
+            right: 15px;
+            bottom: 250px;
+            background-color: #eee;
+            border-radius: 50%;
+            background-image: url(./Image/hide.png);
+            background-size: 100%;
+            cursor: pointer;
+        }
+
+        .fixed .sidebar .hide .content {
+            display: none;
+            width: 80px;
+            height: 30px;
+            position: absolute;
+            right: 55px;
+            top: 5px;
+            text-align: center;
+            line-height: 30px;
+            border-radius: 5px;
+            background-color: #444;
+        }
+
+        .fixed .hide:hover {
+            background-image: url(./Image/hide_d.png);
+        }
+
+        .fixed .hide:hover .content,
+        .fixed .hide:hover .triangle {
+            display: block;
+        }
+
+
 
 
         @media screen and (max-width:769px) {
@@ -346,7 +417,25 @@
                 </div>
                 <div class="triangle"></div>
             </div>
+
+            <div class="group">
+                <a href="https://qm.qq.com/cgi-bin/qm/qr?k=WEVYE_OoNC2SDsav1GjPa3egskZy2LSc&jump_from=webapi&authKey=K7AQeIXMzj064PQtp5iAbdFE8FIQxF+NFT9mv4ktU8pCmQ5bMJWNru512RjqGGSD" style="height: 100%; width: 100%;" target="_blank">
+                    <div class="content">
+                        <span>加入Q群</span>
+                    </div>
+                    <div class="triangle"></div>
+                </a>
+            </div>
+
+            <div class="hide">
+                <div class="content">
+                    <span>隐藏侧栏</span>
+                </div>
+                <div class="triangle"></div>
+            </div>
         </div>
+
+    </div>
 
     </div>
 
@@ -481,12 +570,14 @@
                 const peeling = document.querySelector(".peeling")
                 const gratuity = document.querySelector(".gratuity")
                 const backTop = document.querySelector(".backTop")
+                const group = document.querySelector(".group")
+                const hide = document.querySelector(".hide")
                 const show = document.querySelector(".show")
                 if (flag) {
                     document.querySelector("html").style.color = "#f0f0f0"
                     peeling.style.backgroundImage = "url(./Image/daylight.png)"
                     document.querySelector(".peeling span").innerHTML = "日间模式"
-                    peeling.style.backgroundColor = gratuity.style.backgroundColor = backTop.style.backgroundColor = sidebarBgcN
+                    group.style.backgroundColor = hide.style.backgroundColor = peeling.style.backgroundColor = gratuity.style.backgroundColor = backTop.style.backgroundColor = sidebarBgcN
                     show.style.backgroundColor = "#2c2e2f"
                     document.querySelector("body").style.backgroundColor = "#1b1d1f"
                     document.querySelector("svg").style.color = "rgb(45, 154, 255)"
@@ -504,11 +595,17 @@
                     backTop.onmouseover = function () {
                         this.style.backgroundImage = "url(./Image/backTop_n.png)"
                     }
+                    group.onmouseover = function () {
+                        this.style.backgroundImage = "url(./Image/group_n.png)"
+                    }
+                    hide.onmouseover = function () {
+                        this.style.backgroundImage = "url(./Image/hide_n.png)"
+                    }
                 } else {
                     document.querySelector("html").style.color = "#000"
                     peeling.style.backgroundImage = "url(./Image/night.png)"
                     document.querySelector(".peeling span").innerHTML = "夜间模式"
-                    peeling.style.backgroundColor = gratuity.style.backgroundColor = backTop.style.backgroundColor = sidebarBgcD
+                    group.style.backgroundColor = hide.style.backgroundColor = peeling.style.backgroundColor = gratuity.style.backgroundColor = backTop.style.backgroundColor = sidebarBgcD
                     show.style.backgroundColor = "#fff"
                     document.querySelector("body").style.backgroundColor = "#f9f9f9"
                     document.querySelector("svg").style.color = "rgb(0, 132, 255)"
@@ -526,6 +623,12 @@
                     backTop.onmouseover = function () {
                         this.style.backgroundImage = "url(./Image/backTop_d.png)"
                     }
+                    group.onmouseover = function () {
+                        this.style.backgroundImage = "url(./Image/group_d.png)"
+                    }
+                    hide.onmouseover = function () {
+                        this.style.backgroundImage = "url(./Image/hide_d.png)"
+                    }
                 }
                 gratuity.onmouseout = function () {
                     this.style.backgroundImage = "url(./Image/gratuity.png)"
@@ -533,8 +636,21 @@
                 backTop.onmouseout = function () {
                     this.style.backgroundImage = "url(./Image/backTop.png)"
                 }
+                group.onmouseout = function () {
+                    this.style.backgroundImage = "url(./Image/group.png)"
+                }
+                hide.onmouseout = function () {
+                    this.style.backgroundImage = "url(./Image/hide.png)"
+                }
                 flag = !flag
             }
+        )
+
+        document.querySelector(".hide").addEventListener("click",
+            function () {
+                const sidebar = document.querySelector(".sidebar")
+                sidebar.style.display = 'none'
+            } 
         )
     </script>
 </body>
