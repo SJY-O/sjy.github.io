@@ -1,0 +1,338 @@
+{
+    "A01版：头版.pdf": {
+        "id": "ihrZT296mlmd",
+        "size": "912.0 K"
+    },
+    "A02版：社论·来信.pdf": {
+        "id": "i5P1j296mlri",
+        "size": "570.4 K"
+    },
+    "A03版：时事评论.pdf": {
+        "id": "iFOO5296mlwd",
+        "size": "890.2 K"
+    },
+    "A04版：要闻.pdf": {
+        "id": "iATyB296mm1i",
+        "size": "970.8 K"
+    },
+    "A05版：要闻.pdf": {
+        "id": "iZ59l296mm7e",
+        "size": "822.2 K"
+    },
+    "A06版_A07版：重点.pdf": {
+        "id": "iRPPf296mmbi",
+        "size": "1.2 M"
+    },
+    "A08版：重点.pdf": {
+        "id": "iSRUL296mmgd",
+        "size": "679.1 K"
+    },
+    "A09版：广告.pdf": {
+        "id": "i0VFQ296mmna",
+        "size": "1.7 M"
+    },
+    "A10版：北京新闻·时政.pdf": {
+        "id": "iYWyK296mmtg",
+        "size": "637.0 K"
+    },
+    "A11版：北京新闻·时政.pdf": {
+        "id": "irMep296mmxa",
+        "size": "650.3 K"
+    },
+    "A12版：北京新闻·时政.pdf": {
+        "id": "iT4Eg296mn2f",
+        "size": "660.1 K"
+    },
+    "A13版：北京新闻·时政.pdf": {
+        "id": "iS1in296mn3g",
+        "size": "700.0 K"
+    },
+    "A14版：北京新闻·时政.pdf": {
+        "id": "iRivX296mn7a",
+        "size": "523.2 K"
+    },
+    "A15版：北京新闻·民生.pdf": {
+        "id": "iS76S296mndg",
+        "size": "509.7 K"
+    },
+    "A16版：北京新闻·关注.pdf": {
+        "id": "iWz9x296mnha",
+        "size": "707.4 K"
+    },
+    "A17版：北京新闻·社区.pdf": {
+        "id": "iZQxl296mnkd",
+        "size": "959.1 K"
+    },
+    "A18版：北京新闻·社会.pdf": {
+        "id": "iXPTJ296mnpi",
+        "size": "524.2 K"
+    },
+    "A19版：北京新闻·社会.pdf": {
+        "id": "ifr2T296mnwf",
+        "size": "562.8 K"
+    },
+    "A20版：北京新闻·综合.pdf": {
+        "id": "icNgl296mnzi",
+        "size": "994.9 K"
+    },
+    "A21版：速读.pdf": {
+        "id": "i9Gov296mo6f",
+        "size": "1.0 M"
+    },
+    "A22版：中国新闻·时事.pdf": {
+        "id": "ihn8r296modc",
+        "size": "603.8 K"
+    },
+    "A23版：中国新闻·时事.pdf": {
+        "id": "iKM7w296moih",
+        "size": "539.5 K"
+    },
+    "A24版：中国新闻·时事.pdf": {
+        "id": "isKJu296morg",
+        "size": "1.0 M"
+    },
+    "A25版：中国新闻·时事.pdf": {
+        "id": "ijPRT296mova",
+        "size": "796.5 K"
+    },
+    "A26版：国际新闻·要闻.pdf": {
+        "id": "i7UGn296mp5a",
+        "size": "571.7 K"
+    },
+    "A27版：国际新闻·区域.pdf": {
+        "id": "ilXJx296mpbg",
+        "size": "572.8 K"
+    },
+    "A28版：国际新闻·速读.pdf": {
+        "id": "idwXv296mpfa",
+        "size": "966.8 K"
+    },
+    "A29版：广告.pdf": {
+        "id": "icVjA296mpni",
+        "size": "1.2 M"
+    },
+    "A30版：国际新闻·区域.pdf": {
+        "id": "iHgjd296mpsd",
+        "size": "1.1 M"
+    },
+    "A31版：广告.pdf": {
+        "id": "iYpMO296mpyj",
+        "size": "1.0 M"
+    },
+    "A32版：文娱新闻·综合.pdf": {
+        "id": "i8ML2296mq4f",
+        "size": "662.8 K"
+    },
+    "A33版：广告.pdf": {
+        "id": "iPSgl296mqab",
+        "size": "1.1 M"
+    },
+    "A34版：体育新闻·足球.pdf": {
+        "id": "iS0qf296mqlc",
+        "size": "945.8 K"
+    },
+    "A35版：广告.pdf": {
+        "id": "iZ9nc296mqta",
+        "size": "1.2 M"
+    },
+    "A36版：体育新闻·篮球.pdf": {
+        "id": "iQ806296mr1i",
+        "size": "995.8 K"
+    },
+    "A37版：广告.pdf": {
+        "id": "iXgJa296mrcj",
+        "size": "1,007.9 K"
+    },
+    "A38版：广告.pdf": {
+        "id": "ivJoe296mrna",
+        "size": "1.1 M"
+    },
+    "A39版：体育新闻·综合.pdf": {
+        "id": "imK8t296mrxa",
+        "size": "870.1 K"
+    },
+    "A40版：气象新闻.pdf": {
+        "id": "iy2A3296ms7a",
+        "size": "891.3 K"
+    },
+    "B01版：经济新闻.pdf": {
+        "id": "im40U296msgj",
+        "size": "777.1 K"
+    },
+    "B02版：经济新闻·评论.pdf": {
+        "id": "ixYoF296msng",
+        "size": "581.2 K"
+    },
+    "B03版：经济新闻·关注.pdf": {
+        "id": "iO36g296mstc",
+        "size": "425.0 K"
+    },
+    "B04版：经济新闻·要闻.pdf": {
+        "id": "iIYLV296mt1a",
+        "size": "747.5 K"
+    },
+    "B05版：信息.pdf": {
+        "id": "iSIgg296mt9i",
+        "size": "1.2 M"
+    },
+    "B06版：经济新闻·动态.pdf": {
+        "id": "izIjw296mtfe",
+        "size": "524.5 K"
+    },
+    "B07版：经济新闻·动态.pdf": {
+        "id": "izl79296mtnc",
+        "size": "543.4 K"
+    },
+    "B08版：经济新闻·速读.pdf": {
+        "id": "im2Py296mtva",
+        "size": "675.1 K"
+    },
+    "B09版：黄金楼市.pdf": {
+        "id": "isTpu296mu6b",
+        "size": "688.8 K"
+    },
+    "B10版：黄金楼市·特别报道.pdf": {
+        "id": "iTU2m296mukf",
+        "size": "738.8 K"
+    },
+    "B11版：黄金楼市·特别报道.pdf": {
+        "id": "ip3Vr296musd",
+        "size": "699.0 K"
+    },
+    "B12版：黄金楼市·特别报道.pdf": {
+        "id": "iA7Me296muza",
+        "size": "1.1 M"
+    },
+    "B13版：黄金楼市·特别报道.pdf": {
+        "id": "i2QEc296mv8j",
+        "size": "841.4 K"
+    },
+    "B14版：黄金楼市·关注.pdf": {
+        "id": "iNv7W296mvhi",
+        "size": "471.4 K"
+    },
+    "B15版：黄金楼市·公司观察.pdf": {
+        "id": "im0S5296mvof",
+        "size": "530.3 K"
+    },
+    "B16版：黄金楼市·二手房.pdf": {
+        "id": "i7k6h296mvub",
+        "size": "841.3 K"
+    },
+    "B17版：黄金楼市·商业地产.pdf": {
+        "id": "ibaqK296mw2j",
+        "size": "1.3 M"
+    },
+    "B18版：黄金楼市·异地.pdf": {
+        "id": "iVTAi296mwbi",
+        "size": "580.9 K"
+    },
+    "B19版：黄金楼市·服务.pdf": {
+        "id": "iZNCF296mwjg",
+        "size": "620.6 K"
+    },
+    "B20版：黄金楼市·一周.pdf": {
+        "id": "iG4at296mwpc",
+        "size": "899.4 K"
+    },
+    "C01版：星期5.pdf": {
+        "id": "itsX1296mwvi",
+        "size": "363.0 K"
+    },
+    "C02版_C03版：星期5·放大镜.pdf": {
+        "id": "iUzR8296mx2f",
+        "size": "1,017.8 K"
+    },
+    "C04版：星期5·放大镜.pdf": {
+        "id": "iPORj296mx8b",
+        "size": "1.1 M"
+    },
+    "C05版：星期5·放大镜.pdf": {
+        "id": "iloaA296mxfi",
+        "size": "1.1 M"
+    },
+    "C06版：星期5·纵深.pdf": {
+        "id": "iDvhN296mxsb",
+        "size": "501.8 K"
+    },
+    "C07版：星期5·纵深.pdf": {
+        "id": "iJ9EL296my0j",
+        "size": "513.5 K"
+    },
+    "C08版：广告.pdf": {
+        "id": "i7tu7296myaj",
+        "size": "1.0 M"
+    },
+    "C09版：星期5·逆流.pdf": {
+        "id": "i3QS7296mymb",
+        "size": "698.6 K"
+    },
+    "C10版：星期5·人物.pdf": {
+        "id": "iqXLu296myuj",
+        "size": "471.7 K"
+    },
+    "C11版：星期5·看电影.pdf": {
+        "id": "iK0gK296mz5a",
+        "size": "631.5 K"
+    },
+    "C12版：广告.pdf": {
+        "id": "iJbLo296mzgb",
+        "size": "907.8 K"
+    },
+    "C13版：星期5·每周星知.pdf": {
+        "id": "iDOlb296mzlg",
+        "size": "724.0 K"
+    },
+    "C14版：星期5·遥控器·助听器.pdf": {
+        "id": "ifAGB296mzni",
+        "size": "730.8 K"
+    },
+    "C15版：星期5·写字板.pdf": {
+        "id": "iKrgv296mzqb",
+        "size": "534.9 K"
+    },
+    "C16版：星期5·新青年.pdf": {
+        "id": "iheX1296mzuf",
+        "size": "1.1 M"
+    },
+    "D01版：摩登公社.pdf": {
+        "id": "iXHSy296n00b",
+        "size": "850.7 K"
+    },
+    "D02版_D03版：摩登公社·时装.pdf": {
+        "id": "iN3NF296n03e",
+        "size": "1.1 M"
+    },
+    "D04版：摩登公社·梳妆台.pdf": {
+        "id": "i8PMX296n0ab",
+        "size": "973.9 K"
+    },
+    "D05版：广告.pdf": {
+        "id": "i2wfY296n0hi",
+        "size": "952.1 K"
+    },
+    "D06版_D07版：摩登公社·追光灯.pdf": {
+        "id": "iKEDT296n0lc",
+        "size": "2.1 M"
+    },
+    "D08版：摩登公社·鉴表.pdf": {
+        "id": "i1YW8296n0sj",
+        "size": "1.2 M"
+    },
+    "D09版：摩登公社·风尚生活.pdf": {
+        "id": "ixErq296n10h",
+        "size": "1.1 M"
+    },
+    "D10版：摩登公社·中国制造.pdf": {
+        "id": "iFlKH296n1cj",
+        "size": "493.3 K"
+    },
+    "D11版：北京杂志·新生活.pdf": {
+        "id": "iEjPN296n1if",
+        "size": "576.0 K"
+    },
+    "D12版：北京杂志·新生活.pdf": {
+        "id": "iHq2f296n1re",
+        "size": "1.2 M"
+    }
+}

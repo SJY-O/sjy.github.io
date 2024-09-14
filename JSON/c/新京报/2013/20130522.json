@@ -1,0 +1,366 @@
+{
+    "A01版：头版.pdf": {
+        "id": "iFHkl29gdjoj",
+        "size": "896.1 K"
+    },
+    "A02版：社论·来信.pdf": {
+        "id": "icZu329gdk2d",
+        "size": "715.2 K"
+    },
+    "A03版：时事评论.pdf": {
+        "id": "itnVN29gdkij",
+        "size": "637.3 K"
+    },
+    "A04版：广告.pdf": {
+        "id": "iVd1I29gdkri",
+        "size": "1.5 M"
+    },
+    "A05版：要闻.pdf": {
+        "id": "iug1429gdl8f",
+        "size": "906.3 K"
+    },
+    "A06版：广告.pdf": {
+        "id": "icNCg29gdlif",
+        "size": "1.3 M"
+    },
+    "A07版：重点.pdf": {
+        "id": "ixUvE29gdlre",
+        "size": "873.9 K"
+    },
+    "A08版：重点.pdf": {
+        "id": "i6Ha229gdlyb",
+        "size": "753.6 K"
+    },
+    "A09版：重点.pdf": {
+        "id": "i3ypW29gdm6j",
+        "size": "1.0 M"
+    },
+    "A10版_A11版：重点.pdf": {
+        "id": "iuBdU29gdmle",
+        "size": "958.0 K"
+    },
+    "A12版：信息.pdf": {
+        "id": "iar5W29gdmtc",
+        "size": "966.9 K"
+    },
+    "A13版：重点.pdf": {
+        "id": "iYJEY29gdn0j",
+        "size": "707.7 K"
+    },
+    "A14版：北京新闻·时政.pdf": {
+        "id": "iNuU329gdn3c",
+        "size": "508.3 K"
+    },
+    "A15版：北京新闻·时政.pdf": {
+        "id": "iKyW229gdn9i",
+        "size": "444.6 K"
+    },
+    "A16版：北京新闻·时政.pdf": {
+        "id": "icTEg29gdnji",
+        "size": "859.3 K"
+    },
+    "A17版：北京新闻·民生.pdf": {
+        "id": "ilmuQ29gdnwb",
+        "size": "600.4 K"
+    },
+    "A18版：北京新闻·警法.pdf": {
+        "id": "iWN1z29gdo8d",
+        "size": "434.8 K"
+    },
+    "A19版：北京新闻·社会.pdf": {
+        "id": "i0f4L29gdogb",
+        "size": "448.0 K"
+    },
+    "A20版_A21版：热点.pdf": {
+        "id": "iOgdj29gdoni",
+        "size": "1.0 M"
+    },
+    "A22版：核心报道.pdf": {
+        "id": "iQat329gdouf",
+        "size": "619.8 K"
+    },
+    "A23版：核心报道.pdf": {
+        "id": "ipMel29gdoza",
+        "size": "480.0 K"
+    },
+    "A24版：中国新闻·时事.pdf": {
+        "id": "in33T29gdp7i",
+        "size": "714.6 K"
+    },
+    "A25版：中国新闻·时事.pdf": {
+        "id": "iAuGu29gdpfg",
+        "size": "685.1 K"
+    },
+    "A26版：广告.pdf": {
+        "id": "iyo9Q29gdpvc",
+        "size": "1.3 M"
+    },
+    "A27版：中国新闻·时事.pdf": {
+        "id": "isgEk29gdq3a",
+        "size": "935.3 K"
+    },
+    "A28版：中国新闻·时事.pdf": {
+        "id": "ibhYm29gdqcj",
+        "size": "842.1 K"
+    },
+    "A29版：中国新闻·时事.pdf": {
+        "id": "iwwxX29gdqkh",
+        "size": "852.3 K"
+    },
+    "A30版：气象新闻.pdf": {
+        "id": "idYBl29gdqqd",
+        "size": "895.3 K"
+    },
+    "A31版：广告.pdf": {
+        "id": "iyHab29gdr0d",
+        "size": "1.1 M"
+    },
+    "A32版：广告.pdf": {
+        "id": "iBeGk29gdrib",
+        "size": "1.3 M"
+    },
+    "A33版：国际新闻·要闻.pdf": {
+        "id": "iWX0k29gdrpi",
+        "size": "882.2 K"
+    },
+    "A34版_A35版：国际新闻·要闻.pdf": {
+        "id": "i9cMc29gdryh",
+        "size": "3.3 M"
+    },
+    "A36版：国际新闻·区域.pdf": {
+        "id": "iezao29gds7g",
+        "size": "1.1 M"
+    },
+    "A37版：体育新闻·赛场.pdf": {
+        "id": "ix9A329gdsgf",
+        "size": "1.3 M"
+    },
+    "A38版：体育新闻·赛场.pdf": {
+        "id": "ij8i129gdsnc",
+        "size": "717.5 K"
+    },
+    "A39版：体育新闻·集锦.pdf": {
+        "id": "iXvz229gdssh",
+        "size": "1.3 M"
+    },
+    "A40版：体育新闻·关注.pdf": {
+        "id": "iHCYC29gdsyd",
+        "size": "976.7 K"
+    },
+    "B01版：经济新闻.pdf": {
+        "id": "ie8jI29gdtch",
+        "size": "705.2 K"
+    },
+    "B02版：经济时评.pdf": {
+        "id": "iOhy929gdtrc",
+        "size": "735.7 K"
+    },
+    "B03版：经济新闻·关注.pdf": {
+        "id": "iA2Pu29gdu3e",
+        "size": "501.7 K"
+    },
+    "B04版：经济新闻·宏观.pdf": {
+        "id": "iurp329gducd",
+        "size": "1.0 M"
+    },
+    "B05版：经济新闻·宏观.pdf": {
+        "id": "ibrn129gdumd",
+        "size": "833.3 K"
+    },
+    "B06版：经济新闻·综合.pdf": {
+        "id": "i5gbE29gduvc",
+        "size": "486.3 K"
+    },
+    "B07版：经济新闻·公司.pdf": {
+        "id": "ihDOa29gdv7e",
+        "size": "708.6 K"
+    },
+    "B08版：信息.pdf": {
+        "id": "iP7oA29gdvcj",
+        "size": "946.4 K"
+    },
+    "B09版：经济新闻·投资.pdf": {
+        "id": "irY8Y29gdvhe",
+        "size": "862.2 K"
+    },
+    "B10版_B11版：经济新闻·纵深.pdf": {
+        "id": "iOxlh29gdvre",
+        "size": "1.0 M"
+    },
+    "B12版：经济新闻·投资.pdf": {
+        "id": "iLQoa29gdw2f",
+        "size": "443.4 K"
+    },
+    "B13版：专题.pdf": {
+        "id": "iF2rE29gdwad",
+        "size": "648.0 K"
+    },
+    "B14版：经济新闻·公司.pdf": {
+        "id": "ifcdu29gdwib",
+        "size": "521.3 K"
+    },
+    "B15版：经济新闻·论坛.pdf": {
+        "id": "i4Boc29gdwwf",
+        "size": "519.8 K"
+    },
+    "B16版：经济新闻·速读.pdf": {
+        "id": "iHwmK29gdxba",
+        "size": "1,005.2 K"
+    },
+    "C01版：文娱新闻.pdf": {
+        "id": "i5wXF29gdxkj",
+        "size": "1.2 M"
+    },
+    "C02版：瓦格纳诞辰200周年专题.pdf": {
+        "id": "iqyX029gdxti",
+        "size": "657.8 K"
+    },
+    "C03版：瓦格纳诞辰200周年专题.pdf": {
+        "id": "iqRqX29gdy0f",
+        "size": "598.4 K"
+    },
+    "C04版：瓦格纳诞辰200周年专题.pdf": {
+        "id": "iuwhI29gdydi",
+        "size": "1.0 M"
+    },
+    "C05版：瓦格纳诞辰200周年专题.pdf": {
+        "id": "ifOUT29gdyje",
+        "size": "1.1 M"
+    },
+    "C06版：瓦格纳诞辰200周年专题.pdf": {
+        "id": "iDis729gdyuf",
+        "size": "788.4 K"
+    },
+    "C07版：瓦格纳诞辰200周年专题.pdf": {
+        "id": "ikG1129gdz2d",
+        "size": "828.7 K"
+    },
+    "C08版：广告.pdf": {
+        "id": "iWHYu29gdzcd",
+        "size": "678.9 K"
+    },
+    "C09版：娱乐新闻·电视.pdf": {
+        "id": "i9Tcu29gdzsj",
+        "size": "982.5 K"
+    },
+    "C10版：广告.pdf": {
+        "id": "i3m6r29ge09g",
+        "size": "1.3 M"
+    },
+    "C11版：娱乐新闻·综合.pdf": {
+        "id": "ii5xX29ge0gd",
+        "size": "861.8 K"
+    },
+    "C12版：娱乐新闻·对话（一）.pdf": {
+        "id": "i49HG29ge0qd",
+        "size": "966.8 K"
+    },
+    "C13版：娱乐新闻·对话（二）.pdf": {
+        "id": "iHkYN29ge12f",
+        "size": "1.1 M"
+    },
+    "C14版：娱乐新闻·对话（三）.pdf": {
+        "id": "iicbX29ge1dg",
+        "size": "974.0 K"
+    },
+    "C15版：娱乐新闻·对话（四）.pdf": {
+        "id": "iTjX929ge1ra",
+        "size": "928.1 K"
+    },
+    "C16版：文化新闻·艺术.pdf": {
+        "id": "iYRpr29ge22b",
+        "size": "809.3 K"
+    },
+    "D01版：旅游周刊.pdf": {
+        "id": "iP7Y029ge2hg",
+        "size": "1.1 M"
+    },
+    "D02版：旅游周刊·特别报道.pdf": {
+        "id": "iMhpa29ge2yd",
+        "size": "1.1 M"
+    },
+    "D03版：旅游周刊·特别报道.pdf": {
+        "id": "ik1J029ge39e",
+        "size": "800.5 K"
+    },
+    "D04版：旅游周刊·广告.pdf": {
+        "id": "i2yjA29ge3pa",
+        "size": "928.9 K"
+    },
+    "D05版：旅游周刊·信息.pdf": {
+        "id": "iUSvk29ge41c",
+        "size": "1.1 M"
+    },
+    "D06版：旅游周刊·聚焦.pdf": {
+        "id": "iFp5A29ge4de",
+        "size": "1,015.7 K"
+    },
+    "D07版：旅游周刊·开坛·纪游.pdf": {
+        "id": "ikQja29ge4sj",
+        "size": "1.2 M"
+    },
+    "D08版：旅游周刊·度假.pdf": {
+        "id": "iXCWD29ge56d",
+        "size": "1.1 M"
+    },
+    "D09版：旅游周刊·度假.pdf": {
+        "id": "iZStd29ge5kh",
+        "size": "1.1 M"
+    },
+    "D10版：旅游周刊·酒店.pdf": {
+        "id": "i0RhK29ge5re",
+        "size": "1.1 M"
+    },
+    "D11版：旅游周刊·酒店.pdf": {
+        "id": "iU37I29ge60d",
+        "size": "1.1 M"
+    },
+    "D12版_D13版：旅游周刊·走读中国·寻味儿之豫菜.pdf": {
+        "id": "iTjo829ge6be",
+        "size": "1.6 M"
+    },
+    "D14版：旅游周刊·行者.pdf": {
+        "id": "i5tIU29ge6gj",
+        "size": "1.1 M"
+    },
+    "D15版：旅游周刊·行者.pdf": {
+        "id": "ixQem29ge6ra",
+        "size": "940.1 K"
+    },
+    "D16版：旅游周刊·行摄.pdf": {
+        "id": "iBH4D29ge76f",
+        "size": "1.1 M"
+    },
+    "D17版：旅游周刊·行摄.pdf": {
+        "id": "iP9Fu29ge7kj",
+        "size": "1.1 M"
+    },
+    "D18版：旅游周刊·广告.pdf": {
+        "id": "iVAlS29ge7ze",
+        "size": "1.1 M"
+    },
+    "D19版：旅游周刊·广告.pdf": {
+        "id": "iZxOg29ge89e",
+        "size": "1.4 M"
+    },
+    "D20版：旅游周刊·周报.pdf": {
+        "id": "i0hkB29ge8kf",
+        "size": "1.3 M"
+    },
+    "D21版：旅游周刊·周报.pdf": {
+        "id": "iOdie29ge8xi",
+        "size": "1.4 M"
+    },
+    "D22版：旅游周刊·周报.pdf": {
+        "id": "iBW1I29ge98j",
+        "size": "927.3 K"
+    },
+    "D23版：旅游周刊·广告.pdf": {
+        "id": "iYLpu29ge9kb",
+        "size": "1.6 M"
+    },
+    "D24版：旅游周刊·精致京郊游.pdf": {
+        "id": "izGTC29ge9wd",
+        "size": "1.1 M"
+    }
+}

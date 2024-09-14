@@ -1,0 +1,262 @@
+{
+    "A01版：头版.pdf": {
+        "id": "ih1A829ndwza",
+        "size": "1.1 M"
+    },
+    "A02版：社论·来信.pdf": {
+        "id": "iPqm629ndx5g",
+        "size": "618.8 K"
+    },
+    "A03版：时事评论.pdf": {
+        "id": "iyu4t29ndxef",
+        "size": "1.1 M"
+    },
+    "A04版：新评论.pdf": {
+        "id": "iTMxm29ndxne",
+        "size": "857.8 K"
+    },
+    "A05版：封面报道.pdf": {
+        "id": "insl929ndxyf",
+        "size": "845.7 K"
+    },
+    "A06版：封面报道.pdf": {
+        "id": "iRgzI29ndy8f",
+        "size": "834.1 K"
+    },
+    "A07版：封面报道.pdf": {
+        "id": "iX7BF29ndykh",
+        "size": "704.3 K"
+    },
+    "A08版：热点.pdf": {
+        "id": "itYlG29ndytg",
+        "size": "670.3 K"
+    },
+    "A09版：热点.pdf": {
+        "id": "iH8Ka29ndz4h",
+        "size": "864.1 K"
+    },
+    "A10版：北京新闻·城事.pdf": {
+        "id": "in9n829ndzgj",
+        "size": "560.9 K"
+    },
+    "A11版：广告.pdf": {
+        "id": "iDjrK29ndzsb",
+        "size": "1.5 M"
+    },
+    "A12版：北京新闻·城事.pdf": {
+        "id": "i9W5S29ne07g",
+        "size": "682.8 K"
+    },
+    "A13版：北京新闻·城事.pdf": {
+        "id": "iuJCs29ne0mb",
+        "size": "763.6 K"
+    },
+    "A14版：广告.pdf": {
+        "id": "ixkhk29ne0ze",
+        "size": "746.3 K"
+    },
+    "A15版：北京新闻·城事.pdf": {
+        "id": "iKKFk29ne1ej",
+        "size": "701.9 K"
+    },
+    "A16版：北京新闻·城事.pdf": {
+        "id": "i1FYb29ne1te",
+        "size": "856.7 K"
+    },
+    "A17版：关注.pdf": {
+        "id": "iDQlO29ne29a",
+        "size": "662.7 K"
+    },
+    "A18版：中国眼.pdf": {
+        "id": "i2aKx29ne2pg",
+        "size": "621.8 K"
+    },
+    "A19版：中国新闻·时事.pdf": {
+        "id": "img3J29ne33a",
+        "size": "937.2 K"
+    },
+    "A20版：中国新闻·时事.pdf": {
+        "id": "iiJhY29ne3gd",
+        "size": "832.4 K"
+    },
+    "A21版：国际新闻·聚焦.pdf": {
+        "id": "iqAmL29ne3tg",
+        "size": "718.9 K"
+    },
+    "A22版：国际新闻·聚焦.pdf": {
+        "id": "iQQBH29ne4cf",
+        "size": "863.5 K"
+    },
+    "A23版：气象.pdf": {
+        "id": "iTLDw29ne4sb",
+        "size": "921.2 K"
+    },
+    "A24版：广告.pdf": {
+        "id": "ixWZl29ne53c",
+        "size": "1.4 M"
+    },
+    "B01版：经济新闻.pdf": {
+        "id": "ip0Ex29ne5cb",
+        "size": "564.0 K"
+    },
+    "B02版：经济时评.pdf": {
+        "id": "i5qG929ne5la",
+        "size": "675.9 K"
+    },
+    "B03版：经济新闻·关注.pdf": {
+        "id": "i1occ29ne5wb",
+        "size": "611.4 K"
+    },
+    "B04版：经济新闻·投资.pdf": {
+        "id": "irjdm29ne68d",
+        "size": "704.3 K"
+    },
+    "B05版：经济新闻·公司.pdf": {
+        "id": "iqRLQ29ne6mh",
+        "size": "754.3 K"
+    },
+    "B06版_B07版：经济新闻·金融.pdf": {
+        "id": "i9Zh229ne73e",
+        "size": "1.7 M"
+    },
+    "B08版：经济新闻·金融.pdf": {
+        "id": "iIKTU29ne7gh",
+        "size": "923.3 K"
+    },
+    "B09版：经济新闻·金融.pdf": {
+        "id": "iJZID29ne7ri",
+        "size": "582.1 K"
+    },
+    "B10版：经济新闻·金融.pdf": {
+        "id": "i6Yv629ne80h",
+        "size": "583.2 K"
+    },
+    "B11版：经济新闻·理财.pdf": {
+        "id": "iuPzp29ne88f",
+        "size": "601.0 K"
+    },
+    "B12版：经济新闻·速读.pdf": {
+        "id": "i6UP729ne8eb",
+        "size": "578.5 K"
+    },
+    "C01版：文体娱新闻.pdf": {
+        "id": "ijJ5T29ne8na",
+        "size": "1.1 M"
+    },
+    "C02版：文娱时评.pdf": {
+        "id": "ivi7r29ne8uh",
+        "size": "870.2 K"
+    },
+    "C03版：娱乐新闻·一天.pdf": {
+        "id": "ieyAN29ne94h",
+        "size": "723.5 K"
+    },
+    "C04版：娱乐新闻·电视.pdf": {
+        "id": "igidb29ne9fi",
+        "size": "1.1 M"
+    },
+    "C05版：娱乐新闻·电影.pdf": {
+        "id": "iRA9U29ne9ng",
+        "size": "902.3 K"
+    },
+    "C06版_C07版：文化新闻·艺术圈.pdf": {
+        "id": "iPgPC29ne9wf",
+        "size": "2.2 M"
+    },
+    "C08版：文化新闻·艺术圈.pdf": {
+        "id": "iMTer29nea4d",
+        "size": "1.3 M"
+    },
+    "C09版：信息.pdf": {
+        "id": "ijHIW29nea9i",
+        "size": "812.0 K"
+    },
+    "C10版：体育新闻·赛场.pdf": {
+        "id": "igRqN29neala",
+        "size": "1.2 M"
+    },
+    "C11版：体育新闻·集锦.pdf": {
+        "id": "i0d7N29nearg",
+        "size": "1.1 M"
+    },
+    "C12版：体育新闻·关注.pdf": {
+        "id": "iLAze29neayd",
+        "size": "663.3 K"
+    },
+    "D01版：旅游周刊.pdf": {
+        "id": "i0SCX29neb8d",
+        "size": "1.4 M"
+    },
+    "D02版：旅游周刊·特别报道.pdf": {
+        "id": "i0ZjW29nebid",
+        "size": "1.1 M"
+    },
+    "D03版：旅游周刊·特别报道.pdf": {
+        "id": "ioEhw29neboj",
+        "size": "949.4 K"
+    },
+    "D04版：旅游周刊·广告.pdf": {
+        "id": "iQ3OV29nebuf",
+        "size": "1.1 M"
+    },
+    "D05版：旅游周刊·广告.pdf": {
+        "id": "ic2Y729nec3e",
+        "size": "629.4 K"
+    },
+    "D06版：旅游周刊·特别报道.pdf": {
+        "id": "ipOAS29necde",
+        "size": "814.9 K"
+    },
+    "D07版：旅游周刊·特别报道.pdf": {
+        "id": "iidkc29necof",
+        "size": "1.2 M"
+    },
+    "D08版：旅游周刊·特别报道.pdf": {
+        "id": "ixEkl29necvc",
+        "size": "1.3 M"
+    },
+    "D09版：旅游周刊·广告.pdf": {
+        "id": "iVcpO29ned4b",
+        "size": "1.1 M"
+    },
+    "D10版_D11版：旅游周刊·走读中国·白酒原产地之宜昌（一）.pdf": {
+        "id": "iL1s629nedcj",
+        "size": "1.7 M"
+    },
+    "D12版：旅游周刊·周报.pdf": {
+        "id": "iIDYD29nedmj",
+        "size": "916.4 K"
+    },
+    "D13版：旅游周刊·周报.pdf": {
+        "id": "ilx2u29neduh",
+        "size": "1.0 M"
+    },
+    "D14版：旅游周刊·聚焦.pdf": {
+        "id": "ipzI329nee1e",
+        "size": "1.3 M"
+    },
+    "D15版：旅游周刊·聚焦.pdf": {
+        "id": "i8Mue29nee8b",
+        "size": "1.0 M"
+    },
+    "D16版：旅游周刊·航空.pdf": {
+        "id": "iJWwA29neeha",
+        "size": "1.0 M"
+    },
+    "D17版：旅游周刊·航空.pdf": {
+        "id": "irMF429neele",
+        "size": "1.1 M"
+    },
+    "D18版：旅游周刊·聚焦（二）.pdf": {
+        "id": "iNiex29neera",
+        "size": "1.1 M"
+    },
+    "D19版：旅游周刊·广告.pdf": {
+        "id": "ipWMr29neexg",
+        "size": "1.7 M"
+    },
+    "D20版：旅游周刊·度假.pdf": {
+        "id": "ixhan29nef6f",
+        "size": "1.1 M"
+    }
+}
